@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
-   <description>buat pengujian yukjahit (coba-coba)</description>
+   <description>buat pengujian yukjahit </description>
    <name>Test-YukJahit</name>
    <tag></tag>
    <UUID>b22dbbb4-a6f1-49b0-8ee8-3125ca6e7202</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\damar\Documents\SKRIPSI\YukJahit\yuk-jahit-Katalon\Test-YukJahit.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
