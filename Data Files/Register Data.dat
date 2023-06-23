@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Login Data</name>
+   <name>Register Data</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>ba880890-f1a3-449c-ad0f-3246109e4c35</dataFileGUID>
-   <dataSourceUrl>C:\Users\damar\Documents\SKRIPSI\YukJahit\yuk-jahit-Katalon\Login Data.xlsx</dataSourceUrl>
+   <dataFileGUID>e98f591c-67f0-432a-af51-18ddb31afa91</dataFileGUID>
+   <dataSourceUrl>Data binding/Register Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>true</value>
+      </entry>
+   </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Masuk</name>
+   <name>label_Alamat Lengkap</name>
    <tag></tag>
-   <elementGuidId>177aeec3-2ef8-4bf6-bf63-a32556089378</elementGuidId>
+   <elementGuidId>8d7cae0e-083e-4980-a8a7-c0e02190fb1e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#login-submit-button</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='login-submit-button']</value>
+         <value>//label[@id='field-:rb:-label']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>2d94ac35-fee9-4d39-8166-bf0e7a9e50b0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>ad147071-4f02-4c27-91fd-1e8725ba8e40</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>chakra-button css-1cixqri</value>
-      <webElementGuid>f77f9774-4fbb-4d58-aebe-e3648b3f5fd4</webElementGuid>
+      <value>label</value>
+      <webElementGuid>9bfa7c1d-9c7d-4496-bc6e-ec8f69f70758</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-submit-button</value>
-      <webElementGuid>b02b7bef-835d-455e-9211-eaf0043d198c</webElementGuid>
+      <value>field-:rb:-label</value>
+      <webElementGuid>ace929f1-6bde-4f32-adc8-ae7c70ad6700</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>field-:rb:</value>
+      <webElementGuid>2be70522-94dd-467c-80ca-9afcb2fe81ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-form__label css-g6pte</value>
+      <webElementGuid>079a02c0-81f4-4519-b876-2fa0854f2b66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Masuk</value>
-      <webElementGuid>d32777ba-1424-4d7d-8a26-c9234eb1a674</webElementGuid>
+      <value>Alamat Lengkap*</value>
+      <webElementGuid>fee66ce6-aa26-43d2-a22e-d32743e37beb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-submit-button&quot;)</value>
-      <webElementGuid>0f4b845b-2180-4247-a4de-024d742f62bd</webElementGuid>
+      <value>id(&quot;field-:rb:-label&quot;)</value>
+      <webElementGuid>065099e5-f225-4d6d-950e-48f943d2a25c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='login-submit-button']</value>
-      <webElementGuid>ce11f953-bf25-4d25-858d-1efc0f6767f7</webElementGuid>
+      <value>//label[@id='field-:rb:-label']</value>
+      <webElementGuid>a469c82e-f998-4d4e-9849-fa7ec700c07b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/form/div[4]/button</value>
-      <webElementGuid>2856df07-ca7e-422e-8d14-834db8efbc2d</webElementGuid>
+      <value>//div[@id='root']/div[2]/form/div[6]/label</value>
+      <webElementGuid>88b5136b-0a7c-4114-9096-4e926592b7bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='daftar'])[1]/following::button[1]</value>
-      <webElementGuid>7ce0b87f-2b3c-4b8a-9587-6f816549f470</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Lengkap'])[1]/preceding::label[1]</value>
+      <webElementGuid>8eeb4e41-c8a2-42ba-8258-04ab9ff6875f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::button[1]</value>
-      <webElementGuid>ede1fd42-b209-4e11-98f3-53c4ddb0fe08</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[3]/preceding::label[1]</value>
+      <webElementGuid>9b5eb488-a5a6-4439-96d0-9f7af861dc2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/preceding::button[1]</value>
-      <webElementGuid>8499827f-1850-4919-ad7f-02a1bd4e8846</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Alamat Lengkap']/parent::*</value>
+      <webElementGuid>32cc9328-4052-404f-99d3-46fb9b63e8ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>0bd33336-700e-4ebc-8c14-e7b15a85362f</webElementGuid>
+      <value>//div[6]/label</value>
+      <webElementGuid>e0e7c995-b065-4f7d-9be1-e09c9ee03c01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and @id = 'login-submit-button' and (text() = 'Masuk' or . = 'Masuk')]</value>
-      <webElementGuid>7179ac10-ddb2-4640-b647-d3aede66a86d</webElementGuid>
+      <value>//label[@id = 'field-:rb:-label' and (text() = 'Alamat Lengkap*' or . = 'Alamat Lengkap*')]</value>
+      <webElementGuid>8abe5d71-87a6-4f04-b777-d36d27d973c7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

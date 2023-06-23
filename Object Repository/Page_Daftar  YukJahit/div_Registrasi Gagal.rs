@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Masuk</name>
+   <name>div_Registrasi Gagal</name>
    <tag></tag>
-   <elementGuidId>177aeec3-2ef8-4bf6-bf63-a32556089378</elementGuidId>
+   <elementGuidId>23199891-ce0e-45ef-894b-1b2156e6a607</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#login-submit-button</value>
+         <value>#toast-2-description</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='login-submit-button']</value>
+         <value>//div[@id='toast-2-description']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>2d94ac35-fee9-4d39-8166-bf0e7a9e50b0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>ad147071-4f02-4c27-91fd-1e8725ba8e40</webElementGuid>
+      <value>div</value>
+      <webElementGuid>5291e274-865e-4ca0-b24a-b487c45ec909</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-status</name>
       <type>Main</type>
-      <value>chakra-button css-1cixqri</value>
-      <webElementGuid>f77f9774-4fbb-4d58-aebe-e3648b3f5fd4</webElementGuid>
+      <value>error</value>
+      <webElementGuid>e8a9031a-ebff-4e39-a744-bf784f63a8b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-submit-button</value>
-      <webElementGuid>b02b7bef-835d-455e-9211-eaf0043d198c</webElementGuid>
+      <value>toast-2-description</value>
+      <webElementGuid>70a956be-1a20-4851-9503-b54f1a3cb07c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-alert__desc css-161kwbg</value>
+      <webElementGuid>002ce90c-cf34-422d-8f56-0603ddc0f9a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Masuk</value>
-      <webElementGuid>d32777ba-1424-4d7d-8a26-c9234eb1a674</webElementGuid>
+      <value>Registrasi Gagal</value>
+      <webElementGuid>f9f9adf9-b505-473e-90fd-e86c38f3b9d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-submit-button&quot;)</value>
-      <webElementGuid>0f4b845b-2180-4247-a4de-024d742f62bd</webElementGuid>
+      <value>id(&quot;toast-2-description&quot;)</value>
+      <webElementGuid>78254847-d859-4f38-b6af-4b675ee6e925</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='login-submit-button']</value>
-      <webElementGuid>ce11f953-bf25-4d25-858d-1efc0f6767f7</webElementGuid>
+      <value>//div[@id='toast-2-description']</value>
+      <webElementGuid>c8f46b5e-580d-4178-a92f-b0ee26bf4a9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/form/div[4]/button</value>
-      <webElementGuid>2856df07-ca7e-422e-8d14-834db8efbc2d</webElementGuid>
+      <value>//div[@id='toast-2']/div/div</value>
+      <webElementGuid>4e7c9f9e-455b-45c0-85de-21facca2955e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='daftar'])[1]/following::button[1]</value>
-      <webElementGuid>7ce0b87f-2b3c-4b8a-9587-6f816549f470</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[5]</value>
+      <webElementGuid>87e34694-edce-4e5a-b165-3eacdeaf4546</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::button[1]</value>
-      <webElementGuid>ede1fd42-b209-4e11-98f3-53c4ddb0fe08</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::div[5]</value>
+      <webElementGuid>ca33f4c6-e740-4115-b749-199f022242b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/preceding::button[1]</value>
-      <webElementGuid>8499827f-1850-4919-ad7f-02a1bd4e8846</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'toast-2-description', '&quot;', ')')])[1]/preceding::div[1]</value>
+      <webElementGuid>93641c90-9dfd-442b-89a6-8c1876fbfa5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Registrasi Gagal']/parent::*</value>
+      <webElementGuid>5c71a956-61b0-479f-8132-c36e76e2d4f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>0bd33336-700e-4ebc-8c14-e7b15a85362f</webElementGuid>
+      <value>//div/div/div/div</value>
+      <webElementGuid>85b98604-e00a-4168-9b99-a50834f92d6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and @id = 'login-submit-button' and (text() = 'Masuk' or . = 'Masuk')]</value>
-      <webElementGuid>7179ac10-ddb2-4640-b647-d3aede66a86d</webElementGuid>
+      <value>//div[@id = 'toast-2-description' and (text() = 'Registrasi Gagal' or . = 'Registrasi Gagal')]</value>
+      <webElementGuid>716d245c-2dcc-4506-92f4-f0139e686b87</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Masuk</name>
+   <name>span_</name>
    <tag></tag>
-   <elementGuidId>177aeec3-2ef8-4bf6-bf63-a32556089378</elementGuidId>
+   <elementGuidId>2704804c-feb1-4d21-aea3-51b7d0f2890b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#login-submit-button</value>
+         <value>span.chakra-form__required-indicator.css-1tfjd1n</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='login-submit-button']</value>
+         <value>//label[@id='field-:r1:-label']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>2d94ac35-fee9-4d39-8166-bf0e7a9e50b0</webElementGuid>
+      <value>span</value>
+      <webElementGuid>31d9f451-f53d-46d4-86a2-a93beff023ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>role</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>ad147071-4f02-4c27-91fd-1e8725ba8e40</webElementGuid>
+      <value>presentation</value>
+      <webElementGuid>a4310c99-7f0a-4d3c-9fc6-d973d0e6ab2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>1b0a6cac-d575-4aeb-8f9e-32a92436046e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>chakra-button css-1cixqri</value>
-      <webElementGuid>f77f9774-4fbb-4d58-aebe-e3648b3f5fd4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>login-submit-button</value>
-      <webElementGuid>b02b7bef-835d-455e-9211-eaf0043d198c</webElementGuid>
+      <value>chakra-form__required-indicator css-1tfjd1n</value>
+      <webElementGuid>7f83f919-b124-4abe-b76d-0e30159500c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Masuk</value>
-      <webElementGuid>d32777ba-1424-4d7d-8a26-c9234eb1a674</webElementGuid>
+      <value>*</value>
+      <webElementGuid>e85ad889-9023-4ea5-a416-584f9944aa15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-submit-button&quot;)</value>
-      <webElementGuid>0f4b845b-2180-4247-a4de-024d742f62bd</webElementGuid>
+      <value>id(&quot;field-:r1:-label&quot;)/span[@class=&quot;chakra-form__required-indicator css-1tfjd1n&quot;]</value>
+      <webElementGuid>3c1c5142-5693-4516-beb3-50e1d358f329</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='login-submit-button']</value>
-      <webElementGuid>ce11f953-bf25-4d25-858d-1efc0f6767f7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/form/div[4]/button</value>
-      <webElementGuid>2856df07-ca7e-422e-8d14-834db8efbc2d</webElementGuid>
+      <value>//label[@id='field-:r1:-label']/span</value>
+      <webElementGuid>b3cf8ee7-99a1-4264-905f-097fa6a0894e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='daftar'])[1]/following::button[1]</value>
-      <webElementGuid>7ce0b87f-2b3c-4b8a-9587-6f816549f470</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[2]/following::span[1]</value>
+      <webElementGuid>c77534a8-22a5-46b0-b045-eb8511597134</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::button[1]</value>
-      <webElementGuid>ede1fd42-b209-4e11-98f3-53c4ddb0fe08</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='We will never share your email.'])[1]/preceding::span[2]</value>
+      <webElementGuid>4e6c71df-9b60-4aba-a60a-187145bb402b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/preceding::button[1]</value>
-      <webElementGuid>8499827f-1850-4919-ad7f-02a1bd4e8846</webElementGuid>
+      <value>//*/text()[normalize-space(.)='*']/parent::*</value>
+      <webElementGuid>3b76b5c4-6739-49b1-bb0f-a8514b833661</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>0bd33336-700e-4ebc-8c14-e7b15a85362f</webElementGuid>
+      <value>//label/span</value>
+      <webElementGuid>7345d756-e302-4426-9f26-9c39dcdec651</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and @id = 'login-submit-button' and (text() = 'Masuk' or . = 'Masuk')]</value>
-      <webElementGuid>7179ac10-ddb2-4640-b647-d3aede66a86d</webElementGuid>
+      <value>//span[(text() = '*' or . = '*')]</value>
+      <webElementGuid>5ae5439b-85ea-4c9b-aaa7-3106d9442fe4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Masuk</name>
+   <name>div_Password tidak sama</name>
    <tag></tag>
-   <elementGuidId>177aeec3-2ef8-4bf6-bf63-a32556089378</elementGuidId>
+   <elementGuidId>dc42d0d3-ef47-44fa-a319-8a2bd2cb60fe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#login-submit-button</value>
+         <value>#alert-password-not-match</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='login-submit-button']</value>
+         <value>//div[@id='alert-password-not-match']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>2d94ac35-fee9-4d39-8166-bf0e7a9e50b0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>ad147071-4f02-4c27-91fd-1e8725ba8e40</webElementGuid>
+      <value>div</value>
+      <webElementGuid>c40674c5-e858-4525-b67b-32c7d572e7fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-status</name>
       <type>Main</type>
-      <value>chakra-button css-1cixqri</value>
-      <webElementGuid>f77f9774-4fbb-4d58-aebe-e3648b3f5fd4</webElementGuid>
+      <value>error</value>
+      <webElementGuid>a4ed6ad0-4706-4f90-b91b-67b697cf74b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>24d98436-66d9-432c-89d0-bd5c3f2df5ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-submit-button</value>
-      <webElementGuid>b02b7bef-835d-455e-9211-eaf0043d198c</webElementGuid>
+      <value>alert-password-not-match</value>
+      <webElementGuid>7e427703-c997-48da-be1e-8f1c0afd7e79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-alert css-1uuxu39</value>
+      <webElementGuid>2d9f986f-b819-4828-8510-8d193e7da094</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Masuk</value>
-      <webElementGuid>d32777ba-1424-4d7d-8a26-c9234eb1a674</webElementGuid>
+      <value>Password tidak sama</value>
+      <webElementGuid>e7030b80-516b-453f-899d-71add8fbfa85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-submit-button&quot;)</value>
-      <webElementGuid>0f4b845b-2180-4247-a4de-024d742f62bd</webElementGuid>
+      <value>id(&quot;alert-password-not-match&quot;)</value>
+      <webElementGuid>3c912515-a828-4e94-a993-d6dd97b0e653</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='login-submit-button']</value>
-      <webElementGuid>ce11f953-bf25-4d25-858d-1efc0f6767f7</webElementGuid>
+      <value>//div[@id='alert-password-not-match']</value>
+      <webElementGuid>a659bb41-177a-488b-850e-c1edf66a6d49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/form/div[4]/button</value>
-      <webElementGuid>2856df07-ca7e-422e-8d14-834db8efbc2d</webElementGuid>
+      <value>//div[@id='root']/div[2]/form/div[7]</value>
+      <webElementGuid>7e415171-e656-46e5-9b5f-16125285c8de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='daftar'])[1]/following::button[1]</value>
-      <webElementGuid>7ce0b87f-2b3c-4b8a-9587-6f816549f470</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[3]/preceding::div[1]</value>
+      <webElementGuid>b1c5ee5a-1a9b-494f-b601-e9e1b3cb9150</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::button[1]</value>
-      <webElementGuid>ede1fd42-b209-4e11-98f3-53c4ddb0fe08</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::div[1]</value>
+      <webElementGuid>5819e01f-141f-440e-8bb4-ca403eb3742b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/preceding::button[1]</value>
-      <webElementGuid>8499827f-1850-4919-ad7f-02a1bd4e8846</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Password tidak sama']/parent::*</value>
+      <webElementGuid>33e2c709-7e52-48ee-9d84-f7112d255886</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>0bd33336-700e-4ebc-8c14-e7b15a85362f</webElementGuid>
+      <value>//div[7]</value>
+      <webElementGuid>2b193d93-1178-473d-baf8-e3e3aa819407</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and @id = 'login-submit-button' and (text() = 'Masuk' or . = 'Masuk')]</value>
-      <webElementGuid>7179ac10-ddb2-4640-b647-d3aede66a86d</webElementGuid>
+      <value>//div[@id = 'alert-password-not-match' and (text() = 'Password tidak sama' or . = 'Password tidak sama')]</value>
+      <webElementGuid>df5e4348-e5e7-48f9-accd-980f75a68d9e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Masuk</name>
+   <name>button_Daftar</name>
    <tag></tag>
-   <elementGuidId>177aeec3-2ef8-4bf6-bf63-a32556089378</elementGuidId>
+   <elementGuidId>a6945406-c7b0-422d-ba1f-3b669be2bf9c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#login-submit-button</value>
+         <value>#register-submit-button</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='login-submit-button']</value>
+         <value>//button[@id='register-submit-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2d94ac35-fee9-4d39-8166-bf0e7a9e50b0</webElementGuid>
+      <webElementGuid>1ab5c76f-d237-43a8-8ded-11aadbd9452f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,63 +30,63 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>ad147071-4f02-4c27-91fd-1e8725ba8e40</webElementGuid>
+      <webElementGuid>265805c4-1d5d-4fc0-b5d5-6487c575625e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>chakra-button css-1cixqri</value>
-      <webElementGuid>f77f9774-4fbb-4d58-aebe-e3648b3f5fd4</webElementGuid>
+      <value>chakra-button css-r2cee4</value>
+      <webElementGuid>bdb5d782-95ef-46e9-9689-1278688dd8b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-submit-button</value>
-      <webElementGuid>b02b7bef-835d-455e-9211-eaf0043d198c</webElementGuid>
+      <value>register-submit-button</value>
+      <webElementGuid>8eb7dcbd-fa79-4126-ab30-80621553fdeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Masuk</value>
-      <webElementGuid>d32777ba-1424-4d7d-8a26-c9234eb1a674</webElementGuid>
+      <value>Daftar</value>
+      <webElementGuid>0b25a7fc-2483-475a-a308-c996a396f399</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-submit-button&quot;)</value>
-      <webElementGuid>0f4b845b-2180-4247-a4de-024d742f62bd</webElementGuid>
+      <value>id(&quot;register-submit-button&quot;)</value>
+      <webElementGuid>fc61c73e-e51b-4807-bad5-e5b6d5ab8ad6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='login-submit-button']</value>
-      <webElementGuid>ce11f953-bf25-4d25-858d-1efc0f6767f7</webElementGuid>
+      <value>//button[@id='register-submit-button']</value>
+      <webElementGuid>a6596c58-8c1b-4203-9828-84a1e72a055a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/form/div[4]/button</value>
-      <webElementGuid>2856df07-ca7e-422e-8d14-834db8efbc2d</webElementGuid>
+      <value>//div[@id='root']/div[2]/form/button</value>
+      <webElementGuid>37ae2c3e-9a2a-4a03-b62a-2b0b7538abb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='daftar'])[1]/following::button[1]</value>
-      <webElementGuid>7ce0b87f-2b3c-4b8a-9587-6f816549f470</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Lengkap'])[1]/following::button[1]</value>
+      <webElementGuid>5bb11dc4-a391-48bb-a4dd-4a14704633d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::button[1]</value>
-      <webElementGuid>ede1fd42-b209-4e11-98f3-53c4ddb0fe08</webElementGuid>
+      <webElementGuid>b9ce40c8-72a0-4c6c-9230-c88e80772e71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/preceding::button[1]</value>
-      <webElementGuid>8499827f-1850-4919-ad7f-02a1bd4e8846</webElementGuid>
+      <webElementGuid>aa023ee0-d705-43f4-96cc-52339ae43bb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,14 +110,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>0bd33336-700e-4ebc-8c14-e7b15a85362f</webElementGuid>
+      <webElementGuid>2b3b867b-03ba-4bf1-a186-f4848768edc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and @id = 'login-submit-button' and (text() = 'Masuk' or . = 'Masuk')]</value>
-      <webElementGuid>7179ac10-ddb2-4640-b647-d3aede66a86d</webElementGuid>
+      <value>//button[@type = 'submit' and @id = 'register-submit-button' and (text() = 'Daftar' or . = 'Daftar')]</value>
+      <webElementGuid>d913ee93-44b6-40d6-bfed-48a0789bcb46</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

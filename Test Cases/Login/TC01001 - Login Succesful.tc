@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Login dengan menggunakan email dan password yang sesuai</description>
-   <name>TC01001 - Login Succesful</name>
-   <tag>Valid Credentials</tag>
-   <comment></comment>
-   <testCaseGuid>7db431e6-6eee-4dfe-b8a3-e8298aaa096f</testCaseGuid>
-</TestCaseEntity>

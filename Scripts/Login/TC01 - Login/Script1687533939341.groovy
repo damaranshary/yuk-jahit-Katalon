@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
+WebUI.click(findTestObject('Page_Home  YukJahit/a_Masuk'))
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Masuk  YukJahit/h2_Masuk'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Masuk  YukJahit/label_Email'), 0)
@@ -33,17 +35,13 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Masuk  YukJahi
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Masuk  YukJahit/button_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Email_email'), 'user@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Email_email'), Email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Password_password'), '9KzOjDimb7zsqjjOXXaQnQ==')
+WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Password_password'), Password)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Password_password'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Page_Masuk  YukJahit/button_Masuk'))
 
-if (!(true)) {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Home  YukJahit/div_Login Berhasil'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.verifyElementText(findTestObject('Object Repository/Page_Home  YukJahit/div_Login Berhasil'), 'Login Berhasil')
-
+if (Expected == 'success') {
     WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Home  YukJahit/button_Akun'), 0)
 
     WebUI.verifyElementPresent(findTestObject('Page_Home  YukJahit/a_Keranjang'), 0)
@@ -51,17 +49,19 @@ if (!(true)) {
     WebUI.click(findTestObject('Object Repository/Page_Home  YukJahit/button_Akun'))
 
     WebUI.click(findTestObject('Object Repository/Page_Home  YukJahit/button_Keluar'))
-} else if (true) {
-} else {
+} else if (Expected == 'failed') {
+    WebUI.verifyElementVisible(findTestObject('Page_Masuk  YukJahit/div_Login Gagal'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Email_email'), '')
+
+    WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Password_password'), '')
+} else if (Expected == 'nothing') {
+    WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Masuk  YukJahit/h2_Masuk'), 0)
+
+    WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Email_email'), '')
+
+    WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Password_password'), '')
 }
-
-WebUI.click(findTestObject('Object Repository/Page_Home  YukJahit/a_Masuk'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Email_email'), 'user@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Password_password'), '9KzOjDimb7zsqjjOXXaQnQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_Masuk  YukJahit/button_Masuk'))
 
 WebUI.closeBrowser()
 
