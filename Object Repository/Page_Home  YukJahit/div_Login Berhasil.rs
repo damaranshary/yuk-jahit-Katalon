@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Login Berhasil</name>
+   <tag></tag>
+   <elementGuidId>0bac1e91-b4a4-447a-b86e-7fd5272c25ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(), 'Login Berhasil')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#toast-2-description</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5367c6a2-7073-43a6-96cc-0d94753cdb4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-status</name>
+      <type>Main</type>
+      <value>success</value>
+      <webElementGuid>647e8cd9-a64c-4d93-9b80-e0d2e2c1b9fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>toast-2-description</value>
+      <webElementGuid>92e0c120-d5f9-4fbf-8d29-04b26b6dce29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-alert__desc css-161kwbg</value>
+      <webElementGuid>f2cd2d35-249b-49fd-bc2d-dad44720b558</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login Berhasil</value>
+      <webElementGuid>988a6199-510a-4cc8-97bc-8443679cdb81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;toast-2-description&quot;)</value>
+      <webElementGuid>9ce9e9b5-0c17-4f51-9df2-0d5e1c0f6cfc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[contains(text(), 'Login Berhasil')]</value>
+      <webElementGuid>96474392-33c8-4393-9296-4d8bac829e02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='toast-2']/div/div</value>
+      <webElementGuid>747f1017-3a0f-4987-b3f8-1d19b224d24d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[5]</value>
+      <webElementGuid>4d0e4681-3b08-4c21-93d8-52bd88a5ebfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::div[5]</value>
+      <webElementGuid>95eadea3-7f9f-4c88-8e02-19ffd452212e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'toast-2-description', '&quot;', ')')])[1]/preceding::div[1]</value>
+      <webElementGuid>b0377b98-302e-4d29-ba58-f26d8aa50300</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Login Berhasil']/parent::*</value>
+      <webElementGuid>be61bd88-d2ec-4fd4-8a87-6f877e216def</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/div/div/div</value>
+      <webElementGuid>6a869cdf-f21b-4abf-a6c6-d706fadab852</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'toast-2-description' and (text() = 'Login Berhasil' or . = 'Login Berhasil')]</value>
+      <webElementGuid>ec57b404-0e2b-4392-aabd-5d45258efbf5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
