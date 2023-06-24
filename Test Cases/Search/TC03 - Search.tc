@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03 - Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d77d1a29-7f75-40f3-af94-b8524860b7f8</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>77e40f80-b921-4525-9176-c2f3a2f4c9af</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Search Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>77e40f80-b921-4525-9176-c2f3a2f4c9af</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Query</value>
+      <variableId>57a2c0c0-c81a-4a44-be49-3671c7f55cc6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>77e40f80-b921-4525-9176-c2f3a2f4c9af</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Result</value>
+      <variableId>7d9dd764-dd8c-41d3-bf05-7c06f358d1dd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57a2c0c0-c81a-4a44-be49-3671c7f55cc6</id>
+      <masked>false</masked>
+      <name>Query</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d9dd764-dd8c-41d3-bf05-7c06f358d1dd</id>
+      <masked>false</masked>
+      <name>Result</name>
+   </variable>
+</TestCaseEntity>

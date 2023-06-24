@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01002 - Login Failed</name>
+   <name>TC04 - Product</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f72d2c32-fbd3-4f56-9d90-62dcc382fe70</testCaseGuid>
+   <testCaseGuid>23028647-3e4e-48b7-a985-54f5abbe7bd4</testCaseGuid>
 </TestCaseEntity>

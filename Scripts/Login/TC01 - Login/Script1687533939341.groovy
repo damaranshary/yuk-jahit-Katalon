@@ -42,6 +42,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Passw
 WebUI.click(findTestObject('Object Repository/Page_Masuk  YukJahit/button_Masuk'))
 
 if (Expected == 'success') {
+    WebUI.verifyElementVisible(findTestObject('Page_Home  YukJahit/div_Login Berhasil'), FailureHandling.STOP_ON_FAILURE)
+
     WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Home  YukJahit/button_Akun'), 0)
 
     WebUI.verifyElementPresent(findTestObject('Page_Home  YukJahit/a_Keranjang'), 0)
