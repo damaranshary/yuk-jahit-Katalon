@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Kemeja Panjang Biru Gelapby YukJahitRp _78ac81</name>
+   <tag></tag>
+   <elementGuidId>207080e2-e295-4acf-be84-f4daf698a766</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.chakra-card.chakra-container.css-15h4j2r</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e383c13c-576d-40da-a549-594c7af34659</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-card chakra-container css-15h4j2r</value>
+      <webElementGuid>cc4d75ee-87cc-4f90-8b89-f6f9dcb44f7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kemeja Panjang Biru Gelapby YukJahitRp 215.000Jumlah: 1</value>
+      <webElementGuid>27618633-7a15-4d5e-bcd0-aeeda0c79dbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;chakra-container css-yah50p&quot;]/div[@class=&quot;chakra-stack css-ihq88o&quot;]/div[@class=&quot;chakra-card chakra-container css-15h4j2r&quot;]</value>
+      <webElementGuid>14a86361-2a6f-41bf-8ffe-75691e72b2fb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div</value>
+      <webElementGuid>29efad7f-2da9-466e-a591-bc7148ef69c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keranjang'])[2]/following::div[2]</value>
+      <webElementGuid>2106f9aa-a4c7-4459-b910-dedc899f9205</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar'])[1]/following::div[3]</value>
+      <webElementGuid>8ae8083d-05af-4854-9982-03789b03c377</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div</value>
+      <webElementGuid>64cb8417-6222-4d89-ad46-8ba576bacf09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Kemeja Panjang Biru Gelapby YukJahitRp 215.000Jumlah: 1' or . = 'Kemeja Panjang Biru Gelapby YukJahitRp 215.000Jumlah: 1')]</value>
+      <webElementGuid>1897812b-07e4-4d9c-a4a0-6e606a814d66</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

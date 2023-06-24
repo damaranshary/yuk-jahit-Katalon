@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Nama produk (index terakhir)</name>
+   <tag></tag>
+   <elementGuidId>d2dc73b1-f147-45f2-bfbf-5c55cb22ae24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.chakra-text.css-2ygcmq</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='product-name-5']/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>66989ed9-e0d3-4c04-a051-28ef4408a6cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-text css-2ygcmq</value>
+      <webElementGuid>970ceb41-3048-41de-afc8-c21cf849c56f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kaos Biru Polos</value>
+      <webElementGuid>4113955a-c5fb-413f-ab65-5ae0ab4cd703</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-card-1&quot;)/div[@class=&quot;css-2m29wb&quot;]/p[@class=&quot;chakra-text css-2ygcmq&quot;]</value>
+      <webElementGuid>c581a8b5-607a-4aa2-9241-bb2e89428776</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='product-name-5']/div[2]/p</value>
+      <webElementGuid>b83c2f85-78c6-4652-8180-c80f1708414b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pencarian'])[1]/following::p[1]</value>
+      <webElementGuid>141f8d6e-5ddd-4f3f-bb31-e3f878e550f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::p[1]</value>
+      <webElementGuid>90a9ceb4-b642-48c2-9b2a-c987a3c66e4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YukJahit'])[2]/preceding::p[1]</value>
+      <webElementGuid>49ee82db-0048-4e49-b353-c810b5c227c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::p[4]</value>
+      <webElementGuid>c8b2af26-6c07-445d-8815-e32209b503f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>d2054816-e738-4ac3-8c3c-3a277edddae0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Pencarian_chakra-image css-0</name>
+   <tag></tag>
+   <elementGuidId>c24c6379-6944-45f7-b917-a992623b4b0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.chakra-image.css-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>a1029c97-174c-487b-9b42-349d5e18c105</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>products-not-found.png</value>
+      <webElementGuid>0429f3f5-2af2-4ad7-8eab-929068c650a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-image css-0</value>
+      <webElementGuid>8dcfce5e-2579-4838-9183-53a2a31c36d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;chakra-container css-1w5lfaz&quot;]/div[@class=&quot;css-gmuwbf&quot;]/div[@class=&quot;css-1ft2k3r&quot;]/img[@class=&quot;chakra-image css-0&quot;]</value>
+      <webElementGuid>f82b470e-556e-4441-8ada-2683bf84bdc5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/img</value>
+      <webElementGuid>de616558-036f-4063-a240-2eff2323ac1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>d4f9b09b-4184-4f92-844c-67ec387e9114</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'products-not-found.png']</value>
+      <webElementGuid>c899de5e-9fa0-43bf-9168-261337ec845b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
