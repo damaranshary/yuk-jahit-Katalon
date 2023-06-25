@@ -55,9 +55,17 @@ WebUI.click(findTestObject('Object Repository/Page_Profil - YukJahit/button_Kemb
 
 WebUI.click(findTestObject('Object Repository/Page_Profil - YukJahit/button_Ubah Data Profil'))
 
-WebUI.clearText(findTestObject('Object Repository/Page_Profil - YukJahit/input_Nomor HP (modal)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.clearText(findTestObject('Page_Profil - YukJahit/input_Nama (modal)'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Profil - YukJahit/input_Nomor HP (modal)'), '8')
+WebUI.setText(findTestObject('Page_Profil - YukJahit/input_Nama (modal)'), '')
+
+WebUI.clearText(findTestObject('Page_Profil - YukJahit/input_Nomor HP (modal)'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Page_Profil - YukJahit/input_Nomor HP (modal)'), '')
+
+WebUI.clearText(findTestObject('Page_Profil - YukJahit/input_Alamat Lengkap (modal)'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Page_Profil - YukJahit/input_Alamat Lengkap (modal)'), '')
 
 WebUI.click(findTestObject('Object Repository/Page_Profil - YukJahit/button_Ubah (modal)'))
 
