@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06 - Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09de5581-7b87-4efe-aa0f-8444355fdffc</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>ef10668f-da44-4ea9-b145-1e326ce3a7ae</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Order Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>ef10668f-da44-4ea9-b145-1e326ce3a7ae</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>2d50145e-61bf-4fc0-921d-b0e8a7af54d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>ef10668f-da44-4ea9-b145-1e326ce3a7ae</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>b94722e4-ed6d-4f26-882f-fdd6e6f3d198</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>ef10668f-da44-4ea9-b145-1e326ce3a7ae</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>hasOrder</value>
+      <variableId>7afc3d74-f2f1-4c01-a453-c551189004dd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2d50145e-61bf-4fc0-921d-b0e8a7af54d9</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b94722e4-ed6d-4f26-882f-fdd6e6f3d198</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>7afc3d74-f2f1-4c01-a453-c551189004dd</id>
+      <masked>false</masked>
+      <name>hasOrder</name>
+   </variable>
+</TestCaseEntity>
