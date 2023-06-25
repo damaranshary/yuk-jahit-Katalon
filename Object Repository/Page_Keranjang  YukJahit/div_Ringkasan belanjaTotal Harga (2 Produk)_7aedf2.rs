@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Ringkasan belanjaTotal Harga (2 Produk)_7aedf2</name>
+   <tag></tag>
+   <elementGuidId>228b773f-00e5-4e4e-9e85-3e03d16caeac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-4rrugz</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b5055b57-239f-4335-b8e5-7d969832b876</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-4rrugz</value>
+      <webElementGuid>5318d5c2-3c33-425d-9586-a56e078ec9b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ringkasan belanjaTotal Harga (2 Produk):  Rp 340.000Catatan (Ukuran, Jahitan, etc.): **wajib diisiTipe Pembayaran: GopayLakukan Pembayaran</value>
+      <webElementGuid>ab0493b3-4c9a-4592-b3ac-313b706d5110</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;chakra-container css-yah50p&quot;]/div[@class=&quot;css-4rrugz&quot;]</value>
+      <webElementGuid>e3101ac1-91d2-4209-9d57-b3ea6dfb30a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]</value>
+      <webElementGuid>34c4610b-4f51-45b5-98f7-f70d131c0cc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jahit'])[3]/following::div[3]</value>
+      <webElementGuid>1a1263d3-db04-4f7e-b13a-12e90bde2100</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kemeja Panjang Biru Gelap'])[1]/following::div[3]</value>
+      <webElementGuid>321c6a3c-0151-4778-9214-0d834e7a6474</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>06ef1e9f-b2f5-4e90-ab53-f8de53233543</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Ringkasan belanjaTotal Harga (2 Produk):  Rp 340.000Catatan (Ukuran, Jahitan, etc.): **wajib diisiTipe Pembayaran: GopayLakukan Pembayaran' or . = 'Ringkasan belanjaTotal Harga (2 Produk):  Rp 340.000Catatan (Ukuran, Jahitan, etc.): **wajib diisiTipe Pembayaran: GopayLakukan Pembayaran')]</value>
+      <webElementGuid>f901222d-7698-4dcd-ae90-2eb26c6b3f6c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

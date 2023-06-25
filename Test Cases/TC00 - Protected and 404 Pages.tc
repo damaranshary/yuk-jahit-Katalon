@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC00 - Protected and 404 Pages</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>887c8961-44c8-46d7-b23b-6748f98c8554</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f940546c-7127-490d-b27e-b4581b40562b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f940546c-7127-490d-b27e-b4581b40562b</id>
+      <masked>false</masked>
+      <name>protectedRoutes</name>
+   </variable>
+</TestCaseEntity>

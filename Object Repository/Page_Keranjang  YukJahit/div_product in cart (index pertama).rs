@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_product in cart (index pertama)</name>
+   <tag></tag>
+   <elementGuidId>ba38c3e2-087e-4847-9120-42e2f392c9da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cart-product-card-1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#cart-product-card-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f9a0e865-efd8-4a72-9c89-227e920a4253</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-card chakra-container css-15h4j2r</value>
+      <webElementGuid>76ae242a-e5a0-4c11-b82f-ce05c1476259</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cart-product-card-1</value>
+      <webElementGuid>b2b51432-b8e9-4843-adbe-79bf20470943</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kaos Hitam Polosby YukJahitRp 125.000Jumlah: 1</value>
+      <webElementGuid>683a8b98-60e0-4fc8-9ed9-0d65092a6fa2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cart-product-card-1&quot;)</value>
+      <webElementGuid>544ded7b-29b7-4000-871e-ae4288e58c25</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='cart-product-card-1']</value>
+      <webElementGuid>47cadb9d-9aac-477b-8cda-2847a3159595</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div</value>
+      <webElementGuid>002e0779-d877-4bd6-b272-fd412ab641fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keranjang'])[2]/following::div[2]</value>
+      <webElementGuid>1c1be7c0-620b-4cf7-87de-3fcbd2b86041</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar'])[1]/following::div[3]</value>
+      <webElementGuid>67686c9d-6d98-4579-a35f-e8c03448ddbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div</value>
+      <webElementGuid>a73ab13c-74aa-44b9-a5d9-10c923dc2a97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'cart-product-card-1' and (text() = 'Kaos Hitam Polosby YukJahitRp 125.000Jumlah: 1' or . = 'Kaos Hitam Polosby YukJahitRp 125.000Jumlah: 1')]</value>
+      <webElementGuid>2a6d11b5-e80b-40a2-bb2b-bd1a2fb2ab68</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

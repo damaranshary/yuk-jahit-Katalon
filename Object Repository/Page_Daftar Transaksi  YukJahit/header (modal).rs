@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>header (modal)</name>
+   <tag></tag>
+   <elementGuidId>f4aa4792-bebb-408e-9222-40826463e76d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='chakra-modal--header-order-modal']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>header</value>
+      <webElementGuid>4e26becb-1897-41cd-a579-3f2cd12b3650</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-modal__header css-1x2vgm7</value>
+      <webElementGuid>5efe5c46-9579-4ec6-a193-3398edcfcf1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>chakra-modal--header-:rl:</value>
+      <webElementGuid>269c9a55-2965-47dd-955b-7a28ce94d4e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Detail Transaksi</value>
+      <webElementGuid>a1f288ab-862e-4792-b5da-0106381d718c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chakra-modal--header-:rl:&quot;)</value>
+      <webElementGuid>2530229b-b970-47a5-a24a-c5c2d1164668</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//header[@id='chakra-modal--header-order-modal']</value>
+      <webElementGuid>3126b138-579e-4cd3-9fda-217c754024b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='chakra-modal-order-modal']/header</value>
+      <webElementGuid>2c487594-8f05-4769-a828-7a71c27efaad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'chakra-modal--header-:rl:', '&quot;', ')')])[1]/following::header[1]</value>
+      <webElementGuid>1a996730-4ee8-40e4-9758-99e5ae59be9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::header[1]</value>
+      <webElementGuid>23b7db89-a2e4-40ef-a448-35cc36be32c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Detail Transaksi']/parent::*</value>
+      <webElementGuid>5c31ca64-dafe-413d-a4ac-74a53a951fee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header</value>
+      <webElementGuid>0876b6c4-757d-4235-bc96-88d44a8d6411</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//header[@id = 'chakra-modal--header-order-modal' and (text() = 'Detail Transaksi' or . = 'Detail Transaksi')]</value>
+      <webElementGuid>1bb84605-7ad6-44d6-8bda-f85fa016028c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

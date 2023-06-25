@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Kemeja Panjang Biru Gelapby YukJahitRp _78ac81</name>
+   <name>div_KeranjangKaos Hitam Polosby YukJahitRp _1ef66b</name>
    <tag></tag>
-   <elementGuidId>207080e2-e295-4acf-be84-f4daf698a766</elementGuidId>
+   <elementGuidId>1a57d966-38f8-47c4-8953-bccf055f2569</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div</value>
+         <value>//div[@id='root']/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.chakra-card.chakra-container.css-15h4j2r</value>
+         <value>div.chakra-container.css-yah50p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e383c13c-576d-40da-a549-594c7af34659</webElementGuid>
+      <webElementGuid>10ba7408-59c7-436b-aa89-61bd21db4db4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>chakra-card chakra-container css-15h4j2r</value>
-      <webElementGuid>cc4d75ee-87cc-4f90-8b89-f6f9dcb44f7d</webElementGuid>
+      <value>chakra-container css-yah50p</value>
+      <webElementGuid>815a4373-1085-4b04-85e3-9b1af185a831</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kemeja Panjang Biru Gelapby YukJahitRp 215.000Jumlah: 1</value>
-      <webElementGuid>27618633-7a15-4d5e-bcd0-aeeda0c79dbc</webElementGuid>
+      <value>KeranjangKaos Hitam Polosby YukJahitRp 125.000Jumlah: 3Ringkasan belanjaTotal Harga (1 Produk):  Rp 375.000Catatan (Ukuran, Jahitan, etc.): *Ukuran L*wajib diisiTipe Pembayaran: GopayLakukan Pembayaran</value>
+      <webElementGuid>c1616a13-dcc2-4095-8417-4879723f2f81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;chakra-container css-yah50p&quot;]/div[@class=&quot;chakra-stack css-ihq88o&quot;]/div[@class=&quot;chakra-card chakra-container css-15h4j2r&quot;]</value>
-      <webElementGuid>14a86361-2a6f-41bf-8ffe-75691e72b2fb</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;chakra-container css-yah50p&quot;]</value>
+      <webElementGuid>5e79e907-e99f-43a3-aebf-761d9fba1cf7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/div/div</value>
-      <webElementGuid>29efad7f-2da9-466e-a591-bc7148ef69c6</webElementGuid>
+      <value>//div[@id='root']/div[2]</value>
+      <webElementGuid>6a490e3a-e399-4d06-83db-0da8f62974d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keranjang'])[2]/following::div[2]</value>
-      <webElementGuid>2106f9aa-a4c7-4459-b910-dedc899f9205</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar'])[1]/following::div[1]</value>
+      <webElementGuid>a4100e26-2014-4cad-94bc-ccd099ed941b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar'])[1]/following::div[3]</value>
-      <webElementGuid>8ae8083d-05af-4854-9982-03789b03c377</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pembelian'])[1]/following::div[1]</value>
+      <webElementGuid>17149bc0-ee23-48a8-881a-d00249b219c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div</value>
-      <webElementGuid>64cb8417-6222-4d89-ad46-8ba576bacf09</webElementGuid>
+      <value>//div/div[2]</value>
+      <webElementGuid>d242fa31-f38d-46f0-81b6-2a453c665485</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Kemeja Panjang Biru Gelapby YukJahitRp 215.000Jumlah: 1' or . = 'Kemeja Panjang Biru Gelapby YukJahitRp 215.000Jumlah: 1')]</value>
-      <webElementGuid>1897812b-07e4-4d9c-a4a0-6e606a814d66</webElementGuid>
+      <value>//div[(text() = 'KeranjangKaos Hitam Polosby YukJahitRp 125.000Jumlah: 3Ringkasan belanjaTotal Harga (1 Produk):  Rp 375.000Catatan (Ukuran, Jahitan, etc.): *Ukuran L*wajib diisiTipe Pembayaran: GopayLakukan Pembayaran' or . = 'KeranjangKaos Hitam Polosby YukJahitRp 125.000Jumlah: 3Ringkasan belanjaTotal Harga (1 Produk):  Rp 375.000Catatan (Ukuran, Jahitan, etc.): *Ukuran L*wajib diisiTipe Pembayaran: GopayLakukan Pembayaran')]</value>
+      <webElementGuid>0968fb40-e832-4041-913e-b0fdf42ef4a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

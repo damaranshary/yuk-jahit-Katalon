@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Jumlah</name>
+   <tag></tag>
+   <elementGuidId>262a2cd1-9382-4323-8cca-104d30f21818</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cart-product-card-1']/div/div[3]/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.chakra-text.css-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>aa6e6ec4-5b5d-4907-9bd7-8cd444aab8a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-text css-0</value>
+      <webElementGuid>ea440a54-3467-40ff-9c28-ef4f9e700e31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jumlah: 3</value>
+      <webElementGuid>fa766281-e6da-4636-b7a2-99ee20238c39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cart-product-card-1&quot;)/div[@class=&quot;css-1fzk9l&quot;]/div[@class=&quot;chakra-stack css-x0u0or&quot;]/div[@class=&quot;chakra-stack css-xerlbm&quot;]/p[@class=&quot;chakra-text css-0&quot;]</value>
+      <webElementGuid>37b495ba-6415-46fc-96cd-660d056efadd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cart-product-card-1']/div/div[3]/div/p</value>
+      <webElementGuid>66e53293-ae2c-4660-ac48-f3944ab4f9ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jahit'])[2]/following::p[2]</value>
+      <webElementGuid>82f24edd-37b0-4434-88a8-151bebd2f0ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kaos Hitam Polos'])[1]/following::p[3]</value>
+      <webElementGuid>cd79fac6-1b1d-4873-9e93-351e3d1d2dc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ringkasan belanja'])[1]/preceding::p[1]</value>
+      <webElementGuid>c132af34-2df1-4740-8788-50b1646cb308</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jumlah:']/parent::*</value>
+      <webElementGuid>20c12441-7619-49fb-812a-aef71433ced3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/p</value>
+      <webElementGuid>16c97a17-0c76-4e28-8ac0-c4b48472047f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Jumlah' or . = 'Jumlah')]</value>
+      <webElementGuid>6e88747f-63fa-40a8-ba53-ce1a58e6a5b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

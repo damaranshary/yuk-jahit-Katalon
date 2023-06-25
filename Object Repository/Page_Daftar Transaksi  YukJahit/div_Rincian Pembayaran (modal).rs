@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Rincian Pembayaran (modal)</name>
+   <tag></tag>
+   <elementGuidId>f3fbb1ca-ca90-4849-a419-7d8a368a1880</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chakra-modal--body-order-modal']/div[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1ff8lcs</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7e587a1e-cb62-47e2-baf0-bd20a26d3694</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1ff8lcs</value>
+      <webElementGuid>6a557ca5-2579-469c-931e-1d11e74ae912</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rincian PembayaranMetode Pembayaran gopayTotal Harga Rp 140.000</value>
+      <webElementGuid>b0ebb1f4-4a92-4a52-a3d3-4ce1ff2fbeb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chakra-modal--body-order-modal&quot;)/div[@class=&quot;css-1ff8lcs&quot;]</value>
+      <webElementGuid>718c27ab-ba68-46e9-b0fc-41a5add6bbce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chakra-modal--body-order-modal']/div[4]</value>
+      <webElementGuid>626c3170-e3d4-4b2b-9506-bc1cca0bfddc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YukJahit'])[2]/following::div[8]</value>
+      <webElementGuid>5f5f1104-f906-4a21-a8d8-292a20573c89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div[4]</value>
+      <webElementGuid>b7827df7-b31b-4f5e-a045-7606f5d2b8eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Rincian Pembayaran')]</value>
+      <webElementGuid>92fe2bc9-40e9-4ddb-b79a-ca4bd1567b33</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Keranjang_chakra-image css-0</name>
+   <tag></tag>
+   <elementGuidId>0cf74eed-6de4-4112-b12d-eefe7682e657</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.chakra-image.css-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>ba6f02ea-c5d0-4a7f-9e5d-1c86f504b161</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>empty-cart.jpg</value>
+      <webElementGuid>498e46b8-a285-4091-9460-3abd4971dd27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-image css-0</value>
+      <webElementGuid>426fce9f-0e81-446e-a5b5-c2e463cba7fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;chakra-container css-yah50p&quot;]/div[@class=&quot;css-gmuwbf&quot;]/div[@class=&quot;css-1ft2k3r&quot;]/img[@class=&quot;chakra-image css-0&quot;]</value>
+      <webElementGuid>14ea6bff-9baf-4e3d-be3c-5adfc672861b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/img</value>
+      <webElementGuid>3443841f-ccb6-4de2-8400-dfe81861101c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>b72b41ec-afb2-428d-873b-8f10eabdf072</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'empty-cart.jpg']</value>
+      <webElementGuid>5781480c-f65f-46a5-bc50-0e457de96b11</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

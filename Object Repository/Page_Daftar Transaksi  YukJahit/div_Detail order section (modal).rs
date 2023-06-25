@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Detail order section (modal)</name>
+   <tag></tag>
+   <elementGuidId>f0664e83-651d-4933-ad2d-821b8a7a9309</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chakra-modal--body-order-modal']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1bw0yvr</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>54fc13dc-a430-477d-96ea-ebb8bad384c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1bw0yvr</value>
+      <webElementGuid>9a09a83d-f5b8-4ede-a79d-5bf75d827fec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SelesaiID Transaksi64736fbaa29bb2f4bb16e630Tanggal 28 Mei 2023 | 22:14 WIB</value>
+      <webElementGuid>f281bf64-c904-4318-a7e1-6cc6658e11f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chakra-modal--body-order-modal&quot;)/div[@class=&quot;css-1bw0yvr&quot;]</value>
+      <webElementGuid>a5ffec07-c474-4d70-98c9-3cd2668183db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chakra-modal--body-order-modal']/div</value>
+      <webElementGuid>d8ef8693-7024-4989-905a-9cf4ad4d24c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[10]</value>
+      <webElementGuid>960f2caf-482f-41bb-ac6a-cfc1961bd0ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::div[10]</value>
+      <webElementGuid>180ca882-7593-41b0-b4eb-9a16bfb8bad2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div</value>
+      <webElementGuid>df435f92-fa4f-4155-be7e-1ac6b69b5cfb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

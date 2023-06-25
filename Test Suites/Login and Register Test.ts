@@ -15,7 +15,7 @@
       <guid>a3804489-66c4-4a62-8b61-bce514ca98fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC01 - Login</testCaseId>
+      <testCaseId>Test Cases/TC01 - Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9d0ad5a1-6398-4883-888d-bbb977874517</id>
@@ -49,7 +49,7 @@
       <guid>6a8619c3-727b-47d1-9c38-c35b3bd4d89d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/TC02 - Register</testCaseId>
+      <testCaseId>Test Cases/TC02 - Register</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

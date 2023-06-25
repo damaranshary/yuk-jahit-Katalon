@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_nama produk (link text)</name>
+   <tag></tag>
+   <elementGuidId>81023b0e-697c-48b8-827e-b960de2e72a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='product-in-cart-link-1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#product-in-cart-link-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8239083f-0475-4182-a61f-48c304049fc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-link css-1siip77</value>
+      <webElementGuid>93616de0-cdbd-436b-a3e3-657d9b85672b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>product-in-cart-link-1</value>
+      <webElementGuid>43a97905-fc37-414e-ae39-d2bf5eecf49e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/6470bb08484c48978a48c329</value>
+      <webElementGuid>45663ad0-15b7-4fdc-b7e8-7b3635b0da48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kaos Hitam Polos</value>
+      <webElementGuid>094169c2-dc0c-4b3c-8ca6-e96fa9208581</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-in-cart-link-1&quot;)</value>
+      <webElementGuid>bb4cc626-8157-4a07-979f-02af43146190</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='product-in-cart-link-1']</value>
+      <webElementGuid>5410fa87-f07a-49b9-a020-0a7ef4bf421d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cart-product-card-1']/div/div[2]/a</value>
+      <webElementGuid>565ef165-ed08-4fac-84ff-12f63a0ed62d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Kaos Hitam Polos')]</value>
+      <webElementGuid>f557ef07-98c1-4ba3-a948-e4c7a12f4320</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keranjang'])[2]/following::a[1]</value>
+      <webElementGuid>764aff5d-2650-4158-b492-2851fd465679</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar'])[1]/following::a[1]</value>
+      <webElementGuid>07853c29-f5dd-45a0-8bda-f040eaf02dcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jahit'])[2]/preceding::a[1]</value>
+      <webElementGuid>b80c200f-1092-4f0c-a810-a1cac3b9c039</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ringkasan belanja'])[1]/preceding::a[1]</value>
+      <webElementGuid>9e50e891-1f1d-4144-86b3-4279f8fc8cf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kaos Hitam Polos']/parent::*</value>
+      <webElementGuid>ea571a03-def7-4ce5-99e1-84c40284fe2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/products/6470bb08484c48978a48c329')]</value>
+      <webElementGuid>f9d6cc88-d187-4ec9-a668-02b21b90e856</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/a</value>
+      <webElementGuid>b018bd96-79e5-4dba-b694-084aec66c642</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'product-in-cart-link-1' and @href = '/products/6470bb08484c48978a48c329' and (text() = 'Kaos Hitam Polos' or . = 'Kaos Hitam Polos')]</value>
+      <webElementGuid>db9b2de7-e534-45d0-9569-1b4053f205c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
