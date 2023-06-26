@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Add to Cart</name>
+   <name>a_Kaos Putih Polosby YukJahitRp 140.000</name>
    <tag></tag>
-   <elementGuidId>d4424d93-a21a-4450-a6f6-477847825b35</elementGuidId>
+   <elementGuidId>dfa78a56-6557-481d-9b64-a8374df057f2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='add-to-cart-button']</value>
+         <key>CSS</key>
+         <value>#product-card-2</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#add-to-cart-button</value>
+         <key>XPATH</key>
+         <value>//a[@id='product-card-2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,119 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>f822ab92-6560-4a26-9c14-3acda7830fcf</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>15cfdefa-466a-498d-8f11-add58bec0945</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>chakra-button css-4apoc5</value>
-      <webElementGuid>7e6a1454-8227-4c37-8772-468e8eeb3843</webElementGuid>
+      <value>a</value>
+      <webElementGuid>5241dcf9-2d85-42ec-acd3-8272f7d48139</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>add-to-cart-button</value>
-      <webElementGuid>50beabc3-21ed-4773-b599-ee0f3a1ce4db</webElementGuid>
+      <value>product-card-2</value>
+      <webElementGuid>5d96e608-5593-4861-b5fc-098590a3c848</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-linkbox css-13i0ih4</value>
+      <webElementGuid>1e3e14d0-4511-4a48-b2e1-29249118167a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/6470bf8a924d47fc9f34a0a6</value>
+      <webElementGuid>77d1de25-b6b2-4df4-8a30-eab3a98377f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add to Cart</value>
-      <webElementGuid>ed2c869e-8cf3-4728-88a7-50e02efe55bd</webElementGuid>
+      <value>Kaos Putih Polosby YukJahitRp 140.000</value>
+      <webElementGuid>09ee3e2b-0d9e-4b73-976d-ef33a792a646</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-to-cart-button&quot;)</value>
-      <webElementGuid>9ed457e5-ccea-40a6-9af4-2fd4d98d9704</webElementGuid>
+      <value>id(&quot;product-card-2&quot;)</value>
+      <webElementGuid>c1038315-0aa2-45d0-883a-74752a4a2ab1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='add-to-cart-button']</value>
-      <webElementGuid>896019b5-3cce-49eb-9508-8d3be96c20c2</webElementGuid>
+      <value>//a[@id='product-card-2']</value>
+      <webElementGuid>988a03e4-cec6-4ef3-857f-514488dfdf43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/form/div/button</value>
-      <webElementGuid>50ebf24c-c455-4dab-98c4-53fa92e18423</webElementGuid>
+      <value>//div[@id='root']/div[2]/div/div/a[2]</value>
+      <webElementGuid>bc7e53b8-fb6d-4997-8b60-06617ac04083</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/following::button[1]</value>
-      <webElementGuid>2a034ffe-21ad-427e-b348-a06ff54fa446</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YukJahit'])[2]/following::a[1]</value>
+      <webElementGuid>86261ba7-c890-42dd-ab49-94ad8da6d491</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::button[2]</value>
-      <webElementGuid>4cb6dc4f-aa86-4b0d-b2f7-14251a5b9c97</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produk Terbaru'])[1]/following::a[2]</value>
+      <webElementGuid>fe03a373-aeec-41bc-9230-98f724d6fc96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::button[1]</value>
-      <webElementGuid>a5fa0cb5-f07f-48c4-b6ce-059a8bb89094</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YukJahit'])[4]/preceding::a[1]</value>
+      <webElementGuid>52e4c616-dcca-4031-bb54-7be82fa70ce6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/preceding::button[1]</value>
-      <webElementGuid>d8daa126-f9a5-4e8e-b0a0-8dbef72bc2ee</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Add to Cart']/parent::*</value>
-      <webElementGuid>a466a3a1-bab0-479b-8475-719a6cd4eabe</webElementGuid>
+      <value>//a[contains(@href, '/products/6470bf8a924d47fc9f34a0a6')]</value>
+      <webElementGuid>78750552-4eb4-4f22-a21a-b2f144f258d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/button</value>
-      <webElementGuid>a8dd6e56-fddc-4b9c-895a-fa06ce9ed33e</webElementGuid>
+      <value>//div[2]/div/div/a[2]</value>
+      <webElementGuid>e8365221-3327-4590-ab97-63a94ab4484d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and @id = 'add-to-cart-button' and (text() = 'Add to Cart' or . = 'Add to Cart')]</value>
-      <webElementGuid>cdc3cb79-077c-4bf3-baae-e01f7e695545</webElementGuid>
+      <value>//a[@id = 'product-card-2' and @href = '/products/6470bf8a924d47fc9f34a0a6' and (text() = 'Kaos Putih Polosby YukJahitRp 140.000' or . = 'Kaos Putih Polosby YukJahitRp 140.000')]</value>
+      <webElementGuid>e1ea56c5-4497-4249-8d30-8323171aca95</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

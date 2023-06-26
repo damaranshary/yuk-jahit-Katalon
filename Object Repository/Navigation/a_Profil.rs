@@ -6,12 +6,11 @@
    <elementGuidId>91dad54a-c641-4350-ba78-02170f397dbe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='menu-list-:rb:-menuitem-:rd:']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[@id='menu-list-:rb:-menuitem-:rd:']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

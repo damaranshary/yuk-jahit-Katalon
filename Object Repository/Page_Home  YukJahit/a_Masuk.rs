@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Masuk</name>
    <tag></tag>
-   <elementGuidId>e6eeca76-6b47-4652-ae44-bbd395642f4b</elementGuidId>
+   <elementGuidId>00fb59ad-cca7-4df0-b307-ccfef256750d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@id='nav-login-button']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#nav-login-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='nav-login-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>26a0a716-d051-4a07-a027-0ad0be4139e1</webElementGuid>
+      <webElementGuid>1f966679-a777-4fee-a0d0-f7d723c5f87e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-button css-1yz2lk0</value>
-      <webElementGuid>7e926e66-ee7c-437a-a290-9ab55bb67ce9</webElementGuid>
+      <webElementGuid>f8adbad5-8284-4a03-ba02-9eea01fdf3c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nav-login-button</value>
-      <webElementGuid>1ec0451c-2109-4072-aad3-8454a284f1e4</webElementGuid>
+      <webElementGuid>7136980e-a27a-4e1e-a2de-75137eec20a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/login</value>
-      <webElementGuid>9b3efe0b-be5a-490a-86e9-83a6d91d8756</webElementGuid>
+      <webElementGuid>b7756713-cd16-41fe-928b-83c25514f8f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Masuk</value>
-      <webElementGuid>18139c38-f98c-47a1-ac26-1756f960e2b2</webElementGuid>
+      <webElementGuid>7c7c5cad-c4c6-4c11-941a-272cd1c7e107</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nav-login-button&quot;)</value>
-      <webElementGuid>ce9d3445-691b-40e8-81bb-f0cd8d8d7606</webElementGuid>
+      <webElementGuid>c6a471ad-c18f-41d4-b5c4-e0f7bc6c0cff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='nav-login-button']</value>
-      <webElementGuid>451d7f00-b5d1-43b1-ac46-713f2aae76c7</webElementGuid>
+      <webElementGuid>3e3ecc7f-b51a-47b2-a271-4770fba71b3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/a</value>
-      <webElementGuid>09249304-5aee-42c0-a6a0-54a4a67a06c1</webElementGuid>
+      <webElementGuid>f524d4da-0365-4d49-9287-11b9d95d515d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Masuk')]</value>
-      <webElementGuid>b6bb3dfa-13af-4916-9826-75201c29133c</webElementGuid>
+      <webElementGuid>422396f3-5e6c-4cbb-8a1e-4ef460467fec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jahit'])[1]/following::a[1]</value>
-      <webElementGuid>fa9f520a-be78-4c52-95d4-8112e1f146dd</webElementGuid>
+      <webElementGuid>e514f080-e8ec-440a-bf9e-0623b551753f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,15 +102,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/preceding::a[1]</value>
-      <webElementGuid>89e493df-dcb4-4461-a4ee-f58260b1571b</webElementGuid>
+      <webElementGuid>ceafe454-40f2-4f75-ac77-23bf8f80d839</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kaos Hitam Polos'])[1]/preceding::a[2]</value>
-      <webElementGuid>a887e948-01f4-4eed-b22a-41c52fadd8e0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produk Terbaru'])[1]/preceding::a[2]</value>
+      <webElementGuid>bfaff19d-d8a6-4878-a63e-c96a202e3542</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Masuk']/parent::*</value>
-      <webElementGuid>9d072d22-97f9-479c-a50c-3bbee9864d12</webElementGuid>
+      <webElementGuid>6a12e348-dd5e-412f-906d-405234418f13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/login')]</value>
-      <webElementGuid>1f2085f4-3632-490c-8249-ae2819425672</webElementGuid>
+      <webElementGuid>8085a09b-0569-495c-93cc-95a186841602</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a</value>
-      <webElementGuid>0f30cc81-d83e-4e63-b59b-5e5427380878</webElementGuid>
+      <webElementGuid>01e0e774-a374-4f9d-8e28-eea479321f0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'nav-login-button' and @href = '/login' and (text() = 'Masuk' or . = 'Masuk')]</value>
-      <webElementGuid>81ca46da-2ea5-4b35-9f41-c4c00cb2e65d</webElementGuid>
+      <webElementGuid>a7a7c035-b6dd-478c-a7d4-748883f58a40</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

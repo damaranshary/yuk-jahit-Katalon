@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Daftar</name>
+   <name>div_Silahkan login terlebih dahulu</name>
    <tag></tag>
-   <elementGuidId>ddd26eb5-1179-499d-81bf-6048bcbd14c1</elementGuidId>
+   <elementGuidId>8b927f7c-ffaf-480e-b694-39eed293925e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#nav-register-button</value>
+         <value>#toast-2-description</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='nav-register-button']</value>
+         <value>//div[@id='toast-2-description']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,127 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>7c8a74d0-bf1f-4f9e-9971-25a13bb32a18</webElementGuid>
+      <value>div</value>
+      <webElementGuid>783a3f6d-7bf7-4811-b49e-8f692f288a4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-status</name>
       <type>Main</type>
-      <value>chakra-button css-12a7g8u</value>
-      <webElementGuid>e5f32cd5-48bc-4a7f-972f-ec35a78b0ab4</webElementGuid>
+      <value>warning</value>
+      <webElementGuid>9d3c3c93-af53-4c7d-8a53-757fa5243499</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>nav-register-button</value>
-      <webElementGuid>e892b0e2-e088-4e5e-b1f3-a74827e1c9af</webElementGuid>
+      <value>toast-2-description</value>
+      <webElementGuid>08b005a1-3363-41b5-a561-778cb121841a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/register</value>
-      <webElementGuid>57749a01-7a6a-452a-ac45-83ee66a57a87</webElementGuid>
+      <value>chakra-alert__desc css-161kwbg</value>
+      <webElementGuid>c2bdd8f0-fdc2-449d-87b9-9ff6b348e6c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Daftar</value>
-      <webElementGuid>baf1c4f9-6c88-4212-a6b6-178cc2c50952</webElementGuid>
+      <value>Silahkan login terlebih dahulu</value>
+      <webElementGuid>ebebf8b1-8dd5-426f-9b86-ff105e1067c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nav-register-button&quot;)</value>
-      <webElementGuid>80f0853a-a05a-4cda-a192-b354814f5db7</webElementGuid>
+      <value>id(&quot;toast-2-description&quot;)</value>
+      <webElementGuid>740b3253-a2ed-4c4d-a1ca-e95f93c4915d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='nav-register-button']</value>
-      <webElementGuid>a045af2d-4fb4-45d0-916b-bf3262dc2ca0</webElementGuid>
+      <value>//div[@id='toast-2-description']</value>
+      <webElementGuid>a69711b5-f383-4c2c-be9d-68428dc342da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/a[2]</value>
-      <webElementGuid>ff20ddd4-ddb9-43fb-8e0f-a02e7aa00a99</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Daftar')]</value>
-      <webElementGuid>9fc1883f-d93d-45e4-8df8-91cb4ddbe422</webElementGuid>
+      <value>//div[@id='toast-2']/div/div</value>
+      <webElementGuid>6b85318c-fea5-44c8-8ee1-9632af852da1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/following::a[1]</value>
-      <webElementGuid>2be860bc-032b-4d4d-be4b-06b6115777d1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[5]</value>
+      <webElementGuid>16233f0a-1ac8-4882-9bea-bc68e7f038a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jahit'])[1]/following::a[2]</value>
-      <webElementGuid>678dc615-b46f-4fc2-bb3f-a509ab865501</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::div[5]</value>
+      <webElementGuid>a7532870-79cc-4fc8-bc0a-9c50dd078168</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jahit'])[2]/preceding::a[1]</value>
-      <webElementGuid>6d9025c1-5101-4f8c-8e39-e7972edb353d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'toast-2-description', '&quot;', ')')])[1]/preceding::div[1]</value>
+      <webElementGuid>9baf31a0-2ef5-40ff-be8b-82d1d88b2c89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Daftar']/parent::*</value>
-      <webElementGuid>6db6d56d-dd75-4b29-8c26-0788fd2063a6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/register')]</value>
-      <webElementGuid>31d73a1d-78b3-4c14-8b1d-1a87558c789c</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Silahkan login terlebih dahulu']/parent::*</value>
+      <webElementGuid>87b7af62-8b66-45f0-9f05-cbee3f692c7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
-      <webElementGuid>fb1c70af-f0f3-4968-9d64-7cc1b651aa8b</webElementGuid>
+      <value>//div/div/div/div</value>
+      <webElementGuid>c17d3293-ce15-4fad-9717-ace96ed0f7a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'nav-register-button' and @href = '/register' and (text() = 'Daftar' or . = 'Daftar')]</value>
-      <webElementGuid>970c0bc6-60b8-472a-a0b4-5e4d7f2cca4d</webElementGuid>
+      <value>//div[@id = 'toast-2-description' and (text() = 'Silahkan login terlebih dahulu' or . = 'Silahkan login terlebih dahulu')]</value>
+      <webElementGuid>85432f09-1cf3-419f-aeed-5b87da93f118</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

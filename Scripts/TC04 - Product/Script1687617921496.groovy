@@ -27,7 +27,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Detail Produk/
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Detail Produk/p_Product_description'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Detail Produk/p_Rp 180.000'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Detail Produk/p_Product_price'), 0)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Detail Produk/button_decrement'))
 

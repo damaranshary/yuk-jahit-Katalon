@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Login Berhasil</name>
+   <name>div_Produk berhasil ditambahkan</name>
    <tag></tag>
-   <elementGuidId>0bac1e91-b4a4-447a-b86e-7fd5272c25ef</elementGuidId>
+   <elementGuidId>ef3614ed-476a-4514-b5b6-d81740f68313</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(), 'Login Berhasil')]</value>
+         <key>CSS</key>
+         <value>#toast-3</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#toast-2-description</value>
+         <key>XPATH</key>
+         <value>//div[@id='toast-3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>5367c6a2-7073-43a6-96cc-0d94753cdb4f</webElementGuid>
+      <webElementGuid>a043cd09-5f5a-45c5-bf2f-bf19a138e671</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,102 +30,94 @@
       <name>data-status</name>
       <type>Main</type>
       <value>success</value>
-      <webElementGuid>647e8cd9-a64c-4d93-9b80-e0d2e2c1b9fa</webElementGuid>
+      <webElementGuid>82f11abb-61b8-466c-b0d9-72c492e24552</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>toast-2-description</value>
-      <webElementGuid>92e0c120-d5f9-4fbf-8d29-04b26b6dce29</webElementGuid>
+      <value>toast-3</value>
+      <webElementGuid>1753a2a4-356b-4dae-9269-8c92d64c340a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>chakra-alert__desc css-161kwbg</value>
-      <webElementGuid>f2cd2d35-249b-49fd-bc2d-dad44720b558</webElementGuid>
+      <value>chakra-alert css-qret8q</value>
+      <webElementGuid>2f59ede3-f156-4d46-90e1-d6c58b7fdebc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login Berhasil</value>
-      <webElementGuid>988a6199-510a-4cc8-97bc-8443679cdb81</webElementGuid>
+      <value>Kaos Hitam Polos x1 berhasil ditambahkan ke keranjang</value>
+      <webElementGuid>2726ba98-643e-48d8-b146-8453e83d6b8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;toast-2-description&quot;)</value>
-      <webElementGuid>9ce9e9b5-0c17-4f51-9df2-0d5e1c0f6cfc</webElementGuid>
+      <value>id(&quot;toast-3&quot;)</value>
+      <webElementGuid>3ab7a695-35de-4877-87f6-3b3bb6b64635</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[contains(text(), 'Login Berhasil')]</value>
-      <webElementGuid>96474392-33c8-4393-9296-4d8bac829e02</webElementGuid>
+      <value>//div[@id='toast-3']</value>
+      <webElementGuid>687d5662-2c03-4236-8c9d-3e7687effce2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='toast-2']/div/div</value>
-      <webElementGuid>747f1017-3a0f-4987-b3f8-1d19b224d24d</webElementGuid>
+      <value>//ul[@id='chakra-toast-manager-bottom']/li/div/div</value>
+      <webElementGuid>e83d870e-9050-4a2a-893b-634f204c9554</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[5]</value>
-      <webElementGuid>4d0e4681-3b08-4c21-93d8-52bd88a5ebfd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[3]</value>
+      <webElementGuid>bfbcef52-e6cc-4dc4-966d-2a9d64499a47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::div[5]</value>
-      <webElementGuid>95eadea3-7f9f-4c88-8e02-19ffd452212e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::div[3]</value>
+      <webElementGuid>88ddb899-3632-4f73-be44-a7936cfb59f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'toast-2-description', '&quot;', ')')])[1]/preceding::div[1]</value>
-      <webElementGuid>b0377b98-302e-4d29-ba58-f26d8aa50300</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login Berhasil']/parent::*</value>
-      <webElementGuid>be61bd88-d2ec-4fd4-8a87-6f877e216def</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'toast-3', '&quot;', ')')])[1]/preceding::div[3]</value>
+      <webElementGuid>adaf949f-f53b-49f6-812f-8c35b3f3900f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/div/div/div/div</value>
-      <webElementGuid>6a869cdf-f21b-4abf-a6c6-d706fadab852</webElementGuid>
+      <value>//li/div/div</value>
+      <webElementGuid>d5349d50-3868-4d99-bc5c-4e814bd1e130</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'toast-2-description' and (text() = 'Login Berhasil' or . = 'Login Berhasil')]</value>
-      <webElementGuid>ec57b404-0e2b-4392-aabd-5d45258efbf5</webElementGuid>
+      <value>//div[@id = 'toast-3' and (text() = 'Produk berhasil ditambahkan ke keranjang' or . = 'Produk berhasil ditambahkan ke keranjang')]</value>
+      <webElementGuid>96d58877-bfc8-422e-8ff9-a329df43e5a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

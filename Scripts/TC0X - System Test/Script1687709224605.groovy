@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
-WebUI.click(findTestObject('Page_Home  YukJahit/a_Daftar'))
+WebUI.click(findTestObject('Navigation/a_Daftar'))
 
 WebUI.setText(findTestObject('Page_Daftar  YukJahit/input_Nama_name'), 'system test (1)')
 
@@ -33,11 +33,11 @@ WebUI.setEncryptedText(findTestObject('Page_Daftar  YukJahit/input_Konfirmasi Pa
 
 WebUI.setText(findTestObject('Page_Daftar  YukJahit/input_Nomor HP_phone'), '08123456789')
 
-WebUI.setText(findTestObject('null'), 'System test address')
+WebUI.setText(findTestObject('Page_Daftar  YukJahit/textarea_Address'), 'System test address')
 
 WebUI.click(findTestObject('Page_Daftar  YukJahit/button_Daftar'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Masuk  YukJahit/div_Registrasi Berhasil'))
+WebUI.verifyElementVisible(findTestObject('Toasts/div_Registrasi Berhasil'))
 
 WebUI.setText(findTestObject('Page_Masuk  YukJahit/input_Email_email'), 'systemtestkatalon@email.com')
 
@@ -45,45 +45,39 @@ WebUI.setEncryptedText(findTestObject('Page_Masuk  YukJahit/input_Password_passw
 
 WebUI.sendKeys(findTestObject('Page_Masuk  YukJahit/input_Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.verifyElementVisible(findTestObject('Page_Home  YukJahit/div_Login Berhasil'))
+WebUI.verifyElementVisible(findTestObject('Toasts/div_Login Berhasil'))
 
 WebUI.click(findTestObject('Page_Home  YukJahit/a_Kaos Hitam Polosby YukJahitRp 125.000'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kaos Hitam Polos  YukJahit/button_Add to Cart'))
+WebUI.click(findTestObject('Page_Detail Produk/button_Add to Cart'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Kaos Hitam Polos  YukJahit/input_Jahit_nav-search-input'), 'kaos')
+WebUI.setText(findTestObject('Page_Pencarian produk  YukJahit/input_Jahit_nav-search-input'), 'kaos')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Kaos Hitam Polos  YukJahit/input_Jahit_nav-search-input'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Page_Pencarian produk  YukJahit/input_Jahit_nav-search-input'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Pencarian produk  YukJahit/a_Kaos Putih Polosby YukJahitRp 140.000'))
+WebUI.click(findTestObject('Object Repository/Page_Pencarian produk  YukJahit/LinkBox_hasil pencarian (index kedua)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kaos Putih Polos  YukJahit/button_Add to Cart'))
+WebUI.click(findTestObject('Page_Detail Produk/button_Add to Cart'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Kaos Putih Polos  YukJahit/input_Jahit_nav-search-input'), 'kemeja')
+WebUI.setText(findTestObject('Page_Pencarian produk  YukJahit/input_Jahit_nav-search-input'), 'kemeja')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Kaos Putih Polos  YukJahit/input_Jahit_nav-search-input'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Page_Pencarian produk  YukJahit/input_Jahit_nav-search-input'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Page_Pencarian produk  YukJahit/a_Kemeja Panjang Biru Gelapby YukJahitRp 215.000'))
+WebUI.click(findTestObject('Page_Pencarian produk  YukJahit/LinkBox_hasil pencarian (index kedua)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Kemeja Panjang Biru Gelap  YukJahit/input_-_quantity'), '25')
+WebUI.setText(findTestObject('Page_Detail Produk/input_-_quantity'), '25')
 
-WebUI.click(findTestObject('Object Repository/Page_Kemeja Panjang Biru Gelap  YukJahit/p_Rp 215.000'))
+WebUI.click(findTestObject('Page_Detail Produk/button_Add to Cart'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kemeja Panjang Biru Gelap  YukJahit/button_Add to Cart'))
+WebUI.click(findTestObject('Navigation/a_Keranjang'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kemeja Panjang Biru Gelap  YukJahit/a_Keranjang'))
-
-WebUI.click(findTestObject('Object Repository/Page_Keranjang  YukJahit/path'))
-
-WebUI.setText(findTestObject('null'), 'Semuanya Ukuran XXL')
+WebUI.setText(findTestObject('Page_Keranjang  YukJahit/textarea_Catatan'), 'Semuanya Ukuran XXL')
 
 WebUI.click(findTestObject('Page_Keranjang  YukJahit/button_Lakukan Pembayaran'))
 
 WebUI.click(findTestObject('Page_Keranjang  YukJahit/button_Checkout'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout 649866c26887d0ab718ef2e8  YukJahit/a_httpssimulator.sandbox.midtrans.comgopayp_c260c9'))
+WebUI.click(findTestObject('Page_Checkout YukJahit/a_link pembayaran'))
 
 WebUI.switchToWindowTitle('Midtrans Mock Payment Provider')
 
@@ -93,39 +87,34 @@ WebUI.click(findTestObject('Object Repository/Page_Midtrans Mock Payment Provide
 
 WebUI.switchToWindowTitle('Checkout berhasil | YukJahit')
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout berhasil  YukJahit/button_Akun'))
+WebUI.click(findTestObject('Navigation/button_Akun'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout berhasil  YukJahit/a_Pembelian'))
+WebUI.click(findTestObject('Navigation/a_Pembelian'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Daftar Transaksi  YukJahit/div_BelanjaSelesai25 Juni 2023  2309 WIB649_286765'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Page_Daftar Transaksi  YukJahit/div_order Card (index pertama)'), 0)
 
 WebUI.click(findTestObject('Page_Daftar Transaksi  YukJahit/button_Lihat Detail Transaksi'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Daftar Transaksi  YukJahit/section_Detail TransaksiSelesaiID Transaksi_b2a399'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Page_Daftar Transaksi  YukJahit/section_Modal'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Daftar Transaksi  YukJahit/svg_Instagram_chakra-icon css-onkibi'))
+WebUI.click(findTestObject('Navigation/button_Akun'))
 
-WebUI.click(findTestObject('Page_Daftar Transaksi  YukJahit/button_Akun'))
+WebUI.click(findTestObject('Navigation/a_Profil'))
 
-WebUI.click(findTestObject('Object Repository/Page_Daftar Transaksi  YukJahit/a_Profil'))
+WebUI.verifyElementText(findTestObject('Page_Profil - YukJahit/p_email_user'), 'systemtestkatalon@email.com')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil- YukJahit/p_systemtestkatalonemail.com'), 'systemtestkatalon@email.com')
+WebUI.verifyElementText(findTestObject('Page_Profil - YukJahit/p_phone'), '081234567890')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil- YukJahit/p_08123456789'), '08123456789')
+WebUI.verifyElementText(findTestObject('Page_Profil - YukJahit/p_Alamat'), 'System test address')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil- YukJahit/p_System test address'), 'System test address')
+WebUI.click(findTestObject('Page_Profil - YukJahit/button_Ubah Data Profil'))
 
-WebUI.click(findTestObject('Object Repository/Page_Profil- YukJahit/button_Ubah Data Profil'))
+WebUI.setText(findTestObject('Page_Profil - YukJahit/input_Nomor HP (modal)'), '0')
 
-WebUI.setText(findTestObject('Object Repository/Page_Profil- YukJahit/input_Nomor HP_phone'), '081234567890')
+WebUI.click(findTestObject('Page_Profil - YukJahit/button_Ubah (modal)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Profil- YukJahit/button_Ubah'))
+WebUI.click(findTestObject('Navigation/button_Akun'))
 
-WebUI.click(findTestObject('Object Repository/Page_Profil- YukJahit/button_Akun'))
-
-WebUI.click(findTestObject('Object Repository/Page_Profil- YukJahit/button_Keluar'))
+WebUI.click(findTestObject('Navigation/button_Keluar'))
 
 WebUI.closeBrowser()
-

@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
-WebUI.click(findTestObject('Page_Home  YukJahit/a_Masuk'))
+WebUI.click(findTestObject('Navigation/a_Masuk'))
 
 WebUI.setText(findTestObject('Page_Masuk  YukJahit/input_Email_email'), email)
 
@@ -29,9 +29,9 @@ WebUI.setText(findTestObject('Page_Masuk  YukJahit/input_Password_password'), pa
 
 WebUI.sendKeys(findTestObject('Page_Masuk  YukJahit/input_Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Page_Home  YukJahit/button_Akun'))
+WebUI.click(findTestObject('Navigation/button_Akun'))
 
-WebUI.click(findTestObject('Object Repository/Page_Home  YukJahit/a_Pembelian'))
+WebUI.click(findTestObject('Object Repository/Navigation/a_Pembelian'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Daftar Transaksi  YukJahit/h2_Daftar Transaksi'), 'Daftar Transaksi')
 
@@ -69,9 +69,9 @@ if (hasOrder == true) {
     WebUI.verifyElementText(findTestObject('Object Repository/Page_Daftar Transaksi  YukJahit/p_Belum ada transaksi'), 'Belum ada transaksi')
 }
 
-WebUI.click(findTestObject('Object Repository/Page_Daftar Transaksi  YukJahit/button_Akun'))
+WebUI.click(findTestObject('Navigation/button_Akun'))
 
-WebUI.click(findTestObject('Object Repository/Page_Daftar Transaksi  YukJahit/button_Keluar'))
+WebUI.click(findTestObject('Navigation/button_Keluar'))
 
 WebUI.closeBrowser()
 

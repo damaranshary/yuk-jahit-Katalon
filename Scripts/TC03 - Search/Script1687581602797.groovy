@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Semua Produk  YukJahit/input_Jahit_nav-search-input'), Query)
+WebUI.setText(findTestObject('Navigation/input_Jahit_nav-search-input'), Query)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Home  YukJahit/input_Jahit_nav-search-input'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Navigation/input_Jahit_nav-search-input'), Keys.chord(Keys.ENTER))
 
 if (Result == 'RedirectToAll') {
     WebUI.verifyElementText(findTestObject('Object Repository/Page_Semua Produk  YukJahit/h2_Semua Produk'), 'Semua Produk')

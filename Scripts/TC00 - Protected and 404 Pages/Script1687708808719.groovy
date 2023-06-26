@@ -21,19 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/cart')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Masuk  YukJahit/div_Silahkan login terlebih dahulu'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Silahkan login terlebih dahulu'))
 
 WebUI.navigateToUrl('http://localhost:5173/profile')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Masuk  YukJahit/div_Silahkan login terlebih dahulu'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Silahkan login terlebih dahulu'))
 
 WebUI.navigateToUrl('http://localhost:5173/order')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Masuk  YukJahit/div_Silahkan login terlebih dahulu'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Silahkan login terlebih dahulu'))
 
 WebUI.navigateToUrl('http://localhost:5173/checkout')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Masuk  YukJahit/div_Silahkan login terlebih dahulu'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Silahkan login terlebih dahulu'))
 
 WebUI.navigateToUrl('http://localhost:5173/somerandomroutes')
 

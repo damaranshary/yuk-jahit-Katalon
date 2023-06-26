@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
-WebUI.click(findTestObject('Page_Home  YukJahit/a_Masuk'))
+WebUI.click(findTestObject('Navigation/a_Masuk'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Masuk  YukJahit/h2_Masuk'), 0)
 
@@ -42,17 +42,17 @@ WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Passw
 WebUI.click(findTestObject('Object Repository/Page_Masuk  YukJahit/button_Masuk'))
 
 if (Expected == 'success') {
-    WebUI.verifyElementVisible(findTestObject('Page_Home  YukJahit/div_Login Berhasil'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('Toasts/div_Login Berhasil'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Home  YukJahit/button_Akun'), 0)
+    WebUI.verifyElementPresent(findTestObject('Object Repository/Navigation/button_Akun'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('Page_Home  YukJahit/a_Keranjang'), 0)
+    WebUI.verifyElementPresent(findTestObject('Navigation/a_Keranjang'), 0)
 
-    WebUI.click(findTestObject('Object Repository/Page_Home  YukJahit/button_Akun'))
+    WebUI.click(findTestObject('Object Repository/Navigation/button_Akun'))
 
-    WebUI.click(findTestObject('Object Repository/Page_Home  YukJahit/button_Keluar'))
+    WebUI.click(findTestObject('Object Repository/Navigation/button_Keluar'))
 } else if (Expected == 'failed') {
-    WebUI.verifyElementVisible(findTestObject('Page_Masuk  YukJahit/div_Login Gagal'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('Toasts/div_Login Gagal'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Email_email'), '')
 

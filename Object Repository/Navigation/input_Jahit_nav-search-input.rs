@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_-_quantity</name>
+   <name>input_Jahit_nav-search-input</name>
    <tag></tag>
-   <elementGuidId>25a8586c-5083-40bd-afcd-caa6dab8a0ec</elementGuidId>
+   <elementGuidId>e60f115d-1b06-4e6e-96d2-6b666bc3556b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='product-quantity-input']</value>
+         <key>CSS</key>
+         <value>#nav-search-input</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#product-quantity-input</value>
+         <key>XPATH</key>
+         <value>//input[@id='nav-search-input']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>41497867-a326-4ecf-921c-74e8ebbbae0b</webElementGuid>
+      <webElementGuid>1fca4972-f81f-4dae-b321-7e06cc9e8fb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>cab9d979-ee3f-42cb-9731-fc4ef83727d5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>quantity</value>
-      <webElementGuid>f944e3ad-0d36-42c1-b61c-e3000715308a</webElementGuid>
+      <value>Cari sesuatu disini...</value>
+      <webElementGuid>8f04ada6-2461-42ae-be13-61a6e25bc62c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>product-quantity-input</value>
-      <webElementGuid>b2899e82-2aa8-4c36-bb6c-b6e01aada7c9</webElementGuid>
+      <value>nav-search-input</value>
+      <webElementGuid>6da9b15c-5a96-4426-b496-2074b830fdf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>chakra-input css-uih59v</value>
-      <webElementGuid>28137225-a585-40b9-934a-85a2261ee856</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>8</value>
-      <webElementGuid>a442d71a-37ca-4c92-aa5e-7cf04815850a</webElementGuid>
+      <value>chakra-input css-1xxrzf0</value>
+      <webElementGuid>9f29850e-ecae-4b73-aac4-bdb35b8b056d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;product-quantity-input&quot;)</value>
-      <webElementGuid>7d323a55-d573-48e1-8ec4-ecbecd00421f</webElementGuid>
+      <value>id(&quot;nav-search-input&quot;)</value>
+      <webElementGuid>3192c9f6-8ba4-4f47-984e-ef7aa8572b2d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='product-quantity-input']</value>
-      <webElementGuid>d4473251-e2dd-45a2-9bf5-8ff9fb6ec0f7</webElementGuid>
+      <value>//input[@id='nav-search-input']</value>
+      <webElementGuid>c39f8cb7-472c-4880-96fc-29152f73b6c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/form/div/div/div/input</value>
-      <webElementGuid>91443c82-942d-48a5-8d1c-b4c659b88c97</webElementGuid>
+      <value>//div[@id='root']/div/div/form/div/input</value>
+      <webElementGuid>0a2acdb5-7e4d-4e07-bc74-644d1260229f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/input</value>
-      <webElementGuid>cf100605-b153-463a-98b0-fabdef64fbe3</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>d054740d-f9c3-4148-9811-2619d1274a1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'number' and @name = 'quantity' and @id = 'product-quantity-input']</value>
-      <webElementGuid>80e7500e-15e4-4cee-b865-59d27bc2705e</webElementGuid>
+      <value>//input[@placeholder = 'Cari sesuatu disini...' and @id = 'nav-search-input']</value>
+      <webElementGuid>68b0daf5-22e4-43a1-803e-220a4bb0faab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_systemtestkatalonemail.com</name>
+   <name>div_Login Berhasil</name>
    <tag></tag>
-   <elementGuidId>99f36b65-503c-45de-af09-d91492bdd2ee</elementGuidId>
+   <elementGuidId>0bac1e91-b4a4-447a-b86e-7fd5272c25ef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//p[@id='user-email']</value>
+         <key>CSS</key>
+         <value>#toast-2-description</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#user-email</value>
+         <key>XPATH</key>
+         <value>//div[contains(text(), 'Login Berhasil')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
-      <webElementGuid>0ac734c7-f2a6-43a0-959b-f98ab4552069</webElementGuid>
+      <value>div</value>
+      <webElementGuid>5367c6a2-7073-43a6-96cc-0d94753cdb4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-status</name>
       <type>Main</type>
-      <value>chakra-text css-0</value>
-      <webElementGuid>86e772af-9891-4b24-8649-4e5b8dbc1b67</webElementGuid>
+      <value>success</value>
+      <webElementGuid>647e8cd9-a64c-4d93-9b80-e0d2e2c1b9fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>user-email</value>
-      <webElementGuid>82c65348-2d5e-4115-94f3-434e0c8e3081</webElementGuid>
+      <value>toast-2-description</value>
+      <webElementGuid>92e0c120-d5f9-4fbf-8d29-04b26b6dce29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-alert__desc css-161kwbg</value>
+      <webElementGuid>f2cd2d35-249b-49fd-bc2d-dad44720b558</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>systemtestkatalon@email.com</value>
-      <webElementGuid>b8824721-5a21-47a2-93ed-348baf9192e1</webElementGuid>
+      <value>Login Berhasil</value>
+      <webElementGuid>988a6199-510a-4cc8-97bc-8443679cdb81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;user-email&quot;)</value>
-      <webElementGuid>938829ab-9afe-4674-9c63-15fa79587571</webElementGuid>
+      <value>id(&quot;toast-2-description&quot;)</value>
+      <webElementGuid>9ce9e9b5-0c17-4f51-9df2-0d5e1c0f6cfc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//p[@id='user-email']</value>
-      <webElementGuid>b0b5181e-b290-45e9-8dcb-032c2200f34b</webElementGuid>
+      <value>//*[contains(text(), 'Login Berhasil')]</value>
+      <webElementGuid>96474392-33c8-4393-9296-4d8bac829e02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/div/div/div/div/p[2]</value>
-      <webElementGuid>bafe1f87-ce05-41ba-baf5-b9f50a4af0f7</webElementGuid>
+      <value>//div[@id='toast-2']/div/div</value>
+      <webElementGuid>747f1017-3a0f-4987-b3f8-1d19b224d24d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='system test (1)'])[1]/following::p[2]</value>
-      <webElementGuid>c7d030bc-0d28-4753-9cee-1bf41828c3a6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[5]</value>
+      <webElementGuid>4d0e4681-3b08-4c21-93d8-52bd88a5ebfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil Saya'])[1]/following::p[2]</value>
-      <webElementGuid>34be58ed-c5f1-4180-8528-f38d2a6210bf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::div[5]</value>
+      <webElementGuid>95eadea3-7f9f-4c88-8e02-19ffd452212e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ubah Data Profil'])[1]/preceding::p[5]</value>
-      <webElementGuid>60b63004-4634-41f6-8209-a42a239f4fde</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'toast-2-description', '&quot;', ')')])[1]/preceding::div[1]</value>
+      <webElementGuid>b0377b98-302e-4d29-ba58-f26d8aa50300</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::p[6]</value>
-      <webElementGuid>667c82da-d64c-489e-a815-458a02bea6c3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='systemtestkatalon@email.com']/parent::*</value>
-      <webElementGuid>c26b2417-f281-474b-b2ca-a4df66d7b87b</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Login Berhasil']/parent::*</value>
+      <webElementGuid>be61bd88-d2ec-4fd4-8a87-6f877e216def</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p[2]</value>
-      <webElementGuid>e9d7bc8a-ebec-42cc-8f2c-12b0d22afd95</webElementGuid>
+      <value>//li/div/div/div/div</value>
+      <webElementGuid>6a869cdf-f21b-4abf-a6c6-d706fadab852</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[@id = 'user-email' and (text() = 'systemtestkatalon@email.com' or . = 'systemtestkatalon@email.com')]</value>
-      <webElementGuid>503615a7-eef4-4689-a779-9971411348ac</webElementGuid>
+      <value>//div[@id = 'toast-2-description' and (text() = 'Login Berhasil' or . = 'Login Berhasil')]</value>
+      <webElementGuid>ec57b404-0e2b-4392-aabd-5d45258efbf5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
-WebUI.click(findTestObject('Page_Home  YukJahit/a_Masuk'))
+WebUI.click(findTestObject('Navigation/a_Masuk'))
 
 WebUI.setText(findTestObject('Page_Masuk  YukJahit/input_Email_email'), 'user@gmail.com')
 
@@ -29,9 +29,9 @@ WebUI.setEncryptedText(findTestObject('Page_Masuk  YukJahit/input_Password_passw
 
 WebUI.sendKeys(findTestObject('Page_Masuk  YukJahit/input_Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Page_Home  YukJahit/button_Akun'))
+WebUI.click(findTestObject('Navigation/button_Akun'))
 
-WebUI.click(findTestObject('Object Repository/Page_Home  YukJahit/a_Profil'))
+WebUI.click(findTestObject('Object Repository/Navigation/a_Profil'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil - YukJahit/h2_Profil Saya'), 'Profil Saya')
 
@@ -69,9 +69,9 @@ WebUI.setText(findTestObject('Page_Profil - YukJahit/input_Alamat Lengkap (modal
 
 WebUI.click(findTestObject('Object Repository/Page_Profil - YukJahit/button_Ubah (modal)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Profil - YukJahit/button_Akun'))
+WebUI.click(findTestObject('Navigation/button_Akun'))
 
-WebUI.click(findTestObject('Object Repository/Page_Profil - YukJahit/button_Keluar'))
+WebUI.click(findTestObject('Navigation/button_Keluar'))
 
 WebUI.closeBrowser()
 

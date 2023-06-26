@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Kaos Putih Polosby YukJahitRp 140.000</name>
+   <name>div_Silahkan login terlebih dahulu (text)</name>
    <tag></tag>
-   <elementGuidId>bc71f6f1-254e-4e57-8d7d-abb50d377f0e</elementGuidId>
+   <elementGuidId>5eefba79-d91e-48d1-99e8-0a2993f155e9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='product-card-2']</value>
+         <key>CSS</key>
+         <value>#toast-4-description</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#product-card-2</value>
+         <key>XPATH</key>
+         <value>//div[@id='toast-4-description']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>5a29bb9b-ce6f-41b9-834c-aa22ec74e023</webElementGuid>
+      <value>div</value>
+      <webElementGuid>d6ba737b-d599-4575-a0d9-58d57c454d91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-status</name>
+      <type>Main</type>
+      <value>warning</value>
+      <webElementGuid>6c050b61-ac42-4023-aa90-8b777f1da2b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>product-card-2</value>
-      <webElementGuid>a52031c0-1874-4a40-aa02-1a09b3b86a5a</webElementGuid>
+      <value>toast-4-description</value>
+      <webElementGuid>9af3ccbb-f878-48b8-a14f-76f108b6e327</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>chakra-linkbox css-13i0ih4</value>
-      <webElementGuid>2fbaefa1-1ffc-41aa-9864-c1082962e70d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/products/6470bf8a924d47fc9f34a0a6</value>
-      <webElementGuid>3cdbe51e-fdd9-485b-beee-020be6c14a4a</webElementGuid>
+      <value>chakra-alert__desc css-161kwbg</value>
+      <webElementGuid>d36aaf90-2337-46d5-94d4-519cd855966a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kaos Putih Polosby YukJahitRp 140.000</value>
-      <webElementGuid>b75ee552-c171-4b84-81a6-b52f6c556de1</webElementGuid>
+      <value>Silahkan login terlebih dahulu</value>
+      <webElementGuid>53072329-19c2-46cd-b574-60f048c3531c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;product-card-2&quot;)</value>
-      <webElementGuid>2d065ccf-235b-4c7f-bf03-215d081b0062</webElementGuid>
+      <value>id(&quot;toast-4-description&quot;)</value>
+      <webElementGuid>05863907-735d-4c4d-8b9f-94dbd0fda3d9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='product-card-2']</value>
-      <webElementGuid>cd8fc37a-b535-4f90-9ace-d49962131620</webElementGuid>
+      <value>//div[@id='toast-4-description']</value>
+      <webElementGuid>d8d45fc1-6193-4c2b-bdff-d43c4fa858b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/div/a[2]</value>
-      <webElementGuid>7cd9dee1-8b34-4b06-922a-768f069dfd1d</webElementGuid>
+      <value>//div[@id='toast-4']/div/div</value>
+      <webElementGuid>e1c915a5-2a2e-4280-a170-fcccfd7ae09a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='YukJahit'])[2]/following::a[1]</value>
-      <webElementGuid>85c20665-b1e3-4d30-b3ec-718e3a05e918</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[5]</value>
+      <webElementGuid>ab215de2-840b-46d3-8315-26b5e4ac1510</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pencarian'])[1]/following::a[2]</value>
-      <webElementGuid>6536878d-f8fa-429f-8033-af1ee99e4cb9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::div[5]</value>
+      <webElementGuid>197f59d5-bf2d-4721-9f7b-e46cdfdc1425</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='YukJahit'])[4]/preceding::a[1]</value>
-      <webElementGuid>cb81088d-8bc9-413f-9409-a81a066295fa</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'toast-4-description', '&quot;', ')')])[1]/preceding::div[1]</value>
+      <webElementGuid>6d1d47d1-0885-4eed-87b8-c65203f0f82b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/products/6470bf8a924d47fc9f34a0a6')]</value>
-      <webElementGuid>22401944-257b-45df-a4c3-b30800f1c2b3</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Silahkan login terlebih dahulu']/parent::*</value>
+      <webElementGuid>5c0e4ccd-aec0-4bfd-9f7a-e20c4e7fabcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/a[2]</value>
-      <webElementGuid>f76674c3-e355-467f-8f07-161a65cf0949</webElementGuid>
+      <value>//div/div/div/div</value>
+      <webElementGuid>3ede3b89-4128-4ba0-8a32-87861d0908ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'product-card-2' and @href = '/products/6470bf8a924d47fc9f34a0a6' and (text() = 'Kaos Putih Polosby YukJahitRp 140.000' or . = 'Kaos Putih Polosby YukJahitRp 140.000')]</value>
-      <webElementGuid>9443e705-a48e-4d3b-b980-63cbfd5b1343</webElementGuid>
+      <value>//div[@id = 'toast-4-description' and (text() = 'Silahkan login terlebih dahulu' or . = 'Silahkan login terlebih dahulu')]</value>
+      <webElementGuid>80425801-0e54-4f35-a8de-ac79848b805b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

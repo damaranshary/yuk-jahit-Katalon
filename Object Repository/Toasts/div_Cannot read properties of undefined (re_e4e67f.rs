@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Masuk</name>
+   <name>div_Cannot read properties of undefined (re_e4e67f</name>
    <tag></tag>
-   <elementGuidId>b9718231-a0fc-4c93-8563-71e41756f19b</elementGuidId>
+   <elementGuidId>c517136b-4102-4b3a-bc2f-5042c0f610f8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#nav-login-button</value>
+         <value>#toast-2-description</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='nav-login-button']</value>
+         <value>//div[@id='toast-2-description']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,119 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>ae898527-9273-4ebf-8de6-25c53d56a94b</webElementGuid>
+      <value>div</value>
+      <webElementGuid>03dd9868-e64c-4c2d-a3f4-d5166af23a52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-status</name>
       <type>Main</type>
-      <value>chakra-button css-1yz2lk0</value>
-      <webElementGuid>8adee4a9-bf89-4d92-a68c-dffcbd5f6ac8</webElementGuid>
+      <value>error</value>
+      <webElementGuid>c9297f36-8f96-4866-a6b6-11294cad5766</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>nav-login-button</value>
-      <webElementGuid>ea6744f1-d4ca-4d06-bdaa-8bac2829d133</webElementGuid>
+      <value>toast-2-description</value>
+      <webElementGuid>bbd57eb6-98f1-4083-8040-d8471e1953c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/login</value>
-      <webElementGuid>caf59a91-b03f-4b7c-97cf-af3486414b24</webElementGuid>
+      <value>chakra-alert__desc css-161kwbg</value>
+      <webElementGuid>5d2eba87-451b-4b24-bef3-ed2d7e09fd5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Masuk</value>
-      <webElementGuid>465594b0-cc79-4f26-b2b5-7b5950549d6c</webElementGuid>
+      <value>Cannot read properties of undefined (reading '0')</value>
+      <webElementGuid>d5aa5a77-e610-44ed-9d17-4100124df929</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nav-login-button&quot;)</value>
-      <webElementGuid>c059436f-0090-462a-b6cd-9df1c317dc24</webElementGuid>
+      <value>id(&quot;toast-2-description&quot;)</value>
+      <webElementGuid>f61eda34-028b-4d7c-b1be-04f8c0eb4a98</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='nav-login-button']</value>
-      <webElementGuid>504a02f7-c89c-415e-8121-a25946e20c7d</webElementGuid>
+      <value>//div[@id='toast-2-description']</value>
+      <webElementGuid>0c1ec67e-2554-4e02-9ec0-7d1e4d4b40c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/a</value>
-      <webElementGuid>f26764bf-3936-4c20-914d-d3d46695cfd7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Masuk')]</value>
-      <webElementGuid>f008c47b-af47-4e2c-aaae-1212aa88190e</webElementGuid>
+      <value>//div[@id='toast-2']/div/div</value>
+      <webElementGuid>48ba5aae-afa2-42ba-9b21-cfe62748dbb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jahit'])[1]/following::a[1]</value>
-      <webElementGuid>168fd83f-c963-455e-8d50-2b2e08859e88</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[5]</value>
+      <webElementGuid>cecf1a31-53f2-40bd-b0a0-fdd2d7c36d5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/preceding::a[1]</value>
-      <webElementGuid>9f9b0c7c-c431-41ec-9127-e61a493b5450</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::div[5]</value>
+      <webElementGuid>7e5a1c27-7389-4a2b-a6c4-1cd98cad2833</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Masuk']/parent::*</value>
-      <webElementGuid>1e35c4a9-adb6-4720-ac78-16c45eaa3149</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/login')]</value>
-      <webElementGuid>89026fe5-f354-47dc-b36e-4adb6c841e4b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'toast-2-description', '&quot;', ')')])[1]/preceding::div[1]</value>
+      <webElementGuid>39fdd3cd-a400-4584-81ef-57dc524db47f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a</value>
-      <webElementGuid>3e4f1eca-e811-469c-be6c-5464a0750867</webElementGuid>
+      <value>//li/div/div/div/div</value>
+      <webElementGuid>69c8e30b-3942-4731-88ad-eaf66a86b90c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'nav-login-button' and @href = '/login' and (text() = 'Masuk' or . = 'Masuk')]</value>
-      <webElementGuid>bdd2297f-2816-4c6e-b341-e317d8560316</webElementGuid>
+      <value>//div[@id = 'toast-2-description' and (text() = concat(&quot;Cannot read properties of undefined (reading &quot; , &quot;'&quot; , &quot;0&quot; , &quot;'&quot; , &quot;)&quot;) or . = concat(&quot;Cannot read properties of undefined (reading &quot; , &quot;'&quot; , &quot;0&quot; , &quot;'&quot; , &quot;)&quot;))]</value>
+      <webElementGuid>a98c8ad3-ad34-477a-b458-3e4a5a9f49fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

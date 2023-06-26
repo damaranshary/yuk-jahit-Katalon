@@ -3,11 +3,10 @@
    <description></description>
    <name>button_Akun</name>
    <tag></tag>
-   <elementGuidId>d6953a39-e047-4add-a87f-adf025bddecc</elementGuidId>
+   <elementGuidId>677ce0f9-3b88-4a60-af1c-58d76bf830ff</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b74ce765-5c14-4994-8944-cf51abd125f4</webElementGuid>
+      <webElementGuid>69afb07b-a0b2-46fe-9524-66b080e50e0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>60c2aaaf-fbe0-4e78-92a8-11cb24ee141d</webElementGuid>
+      <webElementGuid>094010d1-b240-494b-ab4f-245ca0c081e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-button chakra-menu__menu-button css-1yz2lk0</value>
-      <webElementGuid>53a2d534-1334-4ac9-90ed-e2582fb286b8</webElementGuid>
+      <webElementGuid>52a8e510-0fd9-4e3e-a8a3-148a2d5df645</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,15 +45,15 @@
       <name>name</name>
       <type>Main</type>
       <value>nav-account-dropdown</value>
-      <webElementGuid>ae593162-e57e-43ee-b5d2-6eed7164de9c</webElementGuid>
+      <webElementGuid>f1d48551-b5a0-44fa-9ab3-734b9521f09f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>menu-button-:r3:</value>
-      <webElementGuid>8c56eef2-71e4-466c-b159-7ccf9065d0d8</webElementGuid>
+      <value>menu-button-:r1f:</value>
+      <webElementGuid>fbc2a1dc-4e52-4b24-9608-3f509a7d6688</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fc6bd96e-6f53-4ad3-8f5d-0a9b5aa2e48a</webElementGuid>
+      <webElementGuid>222f405b-dae2-47eb-8446-15b501876294</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,15 +69,15 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>menu</value>
-      <webElementGuid>fd550129-8a46-4125-929f-d923e8690e61</webElementGuid>
+      <webElementGuid>d51520a3-eeea-4469-a9ba-5dff364737ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-controls</name>
       <type>Main</type>
-      <value>menu-list-:r3:</value>
-      <webElementGuid>dfdeb523-b800-4f3d-8390-eedbb09440c2</webElementGuid>
+      <value>menu-list-:r1f:</value>
+      <webElementGuid>4d7badce-3172-4307-9348-b4be949ce941</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,15 +85,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Akun</value>
-      <webElementGuid>ba50cb22-b23b-4ecf-887a-637eedff883a</webElementGuid>
+      <webElementGuid>cc8f2eb2-81be-49ba-a9e6-2178df3f1800</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;menu-button-:r3:&quot;)</value>
-      <webElementGuid>baa34ae9-0ca6-4966-8407-dbeb2e9337da</webElementGuid>
+      <value>id(&quot;menu-button-:r1f:&quot;)</value>
+      <webElementGuid>b8ff1ea0-df04-414e-b961-02942558f0e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@name='nav-account-dropdown']</value>
-      <webElementGuid>d75cc6a9-8608-4032-8a0b-e71acffdaca5</webElementGuid>
+      <webElementGuid>c0bcc1e3-9bfe-426a-ba58-88b4a632fc92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/button</value>
-      <webElementGuid>59634f1e-cf0b-4014-bb6e-e2d2c31ed86e</webElementGuid>
+      <webElementGuid>1b600137-b6f8-41f7-9e78-3f7ec66d2004</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Keranjang'])[1]/following::button[1]</value>
-      <webElementGuid>db3e5266-7c16-4a5a-ae3c-ee21d4f1acf5</webElementGuid>
+      <webElementGuid>47954486-3f01-4d0b-becc-c06ba6820fc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jahit'])[1]/following::button[1]</value>
-      <webElementGuid>b8fd06d9-5a1c-4346-ac18-abc23409746b</webElementGuid>
+      <webElementGuid>58f04a8f-1580-45dc-8ce4-6e6c45d5cebd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil'])[1]/preceding::button[1]</value>
-      <webElementGuid>84f8d24a-2aeb-4981-b8d5-d94458aa9504</webElementGuid>
+      <webElementGuid>6a840bf2-3995-4307-84ac-d1d70d5d5f2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,14 +141,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>df21aa01-cbdc-4648-830c-14972a94b2ab</webElementGuid>
+      <webElementGuid>007f9b7b-9a5d-4a38-ad89-b3fe8a67ca2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @name = 'nav-account-dropdown' and (text() = 'Akun' or . = 'Akun')]</value>
-      <webElementGuid>8a467ff1-eb23-4aaa-8aec-40bab17c4582</webElementGuid>
+      <value>//button[@type = 'button' @name = 'nav-account-dropdown' and (text() = 'Akun' or . = 'Akun')]</value>
+      <webElementGuid>7de443eb-1a8f-4299-a302-65435d3a6898</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

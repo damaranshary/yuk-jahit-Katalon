@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
-WebUI.click(findTestObject('Object Repository/Page_Home  YukJahit/a_Daftar'))
+WebUI.click(findTestObject('Object Repository/Navigation/a_Daftar'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Daftar  YukJahit/h2_Daftar'), 'Daftar')
 
@@ -73,7 +73,7 @@ if (Expected == 'nothing') {
 } else if (Expected == 'failed') {
     WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Daftar  YukJahit/div_Registrasi Gagal'))
 } else if (Expected == 'success') {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Masuk  YukJahit/div_Registrasi Berhasil'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Registrasi Berhasil'))
 }
 
 WebUI.closeBrowser()

@@ -21,7 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:5173/')
 
-WebUI.click(findTestObject('Page_Home  YukJahit/a_Masuk'))
+WebUI.click(findTestObject('Object Repository/Page_Home  YukJahit/a_Kaos Putih Polosby YukJahitRp 140.000'))
+
+WebUI.click(findTestObject('Page_Detail Produk/button_Add to Cart'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Silahkan login terlebih dahulu (div)'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Toasts/div_Silahkan login terlebih dahulu (text)'), 'Silahkan login terlebih dahulu')
+
+WebUI.click(findTestObject('Navigation/a_Masuk'))
 
 WebUI.setText(findTestObject('Page_Masuk  YukJahit/input_Email_email'), 'testingcart@email.com')
 
@@ -33,15 +41,25 @@ WebUI.click(findTestObject('Page_Home  YukJahit/a_Kaos Hitam Polosby YukJahitRp 
 
 WebUI.click(findTestObject('Page_Detail Produk/button_Add to Cart'))
 
-WebUI.setText(findTestObject('Page_Home  YukJahit/input_Jahit_nav-search-input'), 'kemeja')
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/Toasts/div_Cannot read properties of undefined (re_e4e67f'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Page_Home  YukJahit/input_Jahit_nav-search-input'), Keys.chord(Keys.ENTER))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Produk berhasil ditambahkan'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('Navigation/input_Jahit_nav-search-input'), 'kemeja')
+
+WebUI.sendKeys(findTestObject('Navigation/input_Jahit_nav-search-input'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Page_Pencarian produk  YukJahit/LinkBox_hasil pencarian (index pertama)'))
 
 WebUI.click(findTestObject('Page_Detail Produk/button_Add to Cart'))
 
-WebUI.click(findTestObject('Page_Home  YukJahit/a_Keranjang'))
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/Toasts/div_Cannot read properties of undefined (re_e4e67f'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Produk berhasil ditambahkan'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Navigation/a_Keranjang'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Checkout YukJahit/h2_Keranjang'), 'Keranjang')
 
@@ -58,7 +76,7 @@ WebUI.click(findTestObject('Page_Keranjang  YukJahit/a_nama produk (link text)')
 
 WebUI.click(findTestObject('Page_Detail Produk/button_Add to Cart'))
 
-WebUI.click(findTestObject('Page_Home  YukJahit/a_Keranjang'))
+WebUI.click(findTestObject('Navigation/a_Keranjang'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Keranjang  YukJahit/p_Jumlah'), 'Jumlah: 2')
 
@@ -78,16 +96,22 @@ WebUI.click(findTestObject('Object Repository/Page_Keranjang  YukJahit/button_La
 
 WebUI.click(findTestObject('Object Repository/Page_Keranjang  YukJahit/button_Checkout'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page_Checkout YukJahit/a_link pembayaran'))
-
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout YukJahit/a_link pembayaran'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout YukJahit/h2_Selesaikan pembayaran sebelum'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout YukJahit/div_YukJahitKeranjangAkunProfilPembelianKel_888271'))
+WebUI.click(findTestObject('Page_Checkout YukJahit/a_link pembayaran'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout YukJahit/a_Keranjang'))
+WebUI.switchToWindowTitle('Midtrans Mock Payment Provider')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Midtrans Mock Payment Provider/input_PIN_pin'), 'Tscr9DIxB28=')
+
+WebUI.click(findTestObject('Object Repository/Page_Midtrans Mock Payment Provider/button_Submit'))
+
+WebUI.switchToWindowTitle('Checkout berhasil | YukJahit')
+
+WebUI.click(findTestObject('Navigation/a_Keranjang'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Checkout YukJahit/h2_Keranjang'), 'Keranjang')
 
@@ -100,9 +124,9 @@ WebUI.click(findTestObject('Object Repository/Page_Keranjang  YukJahit/a_Mulai B
 
 WebUI.verifyElementText(findTestObject('Page_Semua Produk  YukJahit/h2_Semua Produk'), 'Semua Produk')
 
-WebUI.click(findTestObject('Object Repository/Page_Semua Produk  YukJahit/button_Akun'))
+WebUI.click(findTestObject('Navigation/button_Akun'))
 
-WebUI.click(findTestObject('Object Repository/Page_Semua Produk  YukJahit/button_Keluar'))
+WebUI.click(findTestObject('Navigation/button_Keluar'))
 
 WebUI.closeBrowser()
 

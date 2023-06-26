@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_Rp 215.000</name>
+   <name>p_Product_price</name>
    <tag></tag>
-   <elementGuidId>7ef90f01-ee25-4750-91fc-7a94978d11dd</elementGuidId>
+   <elementGuidId>16f9cb11-036e-4c57-87f7-f0e261933018</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.chakra-text.css-14rniuf</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//p[@id='product-price']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#product-price</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>c70b2416-a07f-42af-96a5-df76458b7f8b</webElementGuid>
+      <webElementGuid>bf8d7d0e-b493-42e2-bfdf-b6cb1b423591</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,63 +30,47 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-text css-14rniuf</value>
-      <webElementGuid>52d73245-cf2f-4706-a5af-74fa70db3ebc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>product-price</value>
-      <webElementGuid>6a5b0c70-6602-4853-a1d4-4ddcac806759</webElementGuid>
+      <webElementGuid>d0ce4c64-d867-4213-8a59-2512a6dd57bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Rp 215.000</value>
-      <webElementGuid>59ee247a-f830-4347-8ad7-9e4f1b592a11</webElementGuid>
+      <value>Rp 180.000</value>
+      <webElementGuid>cab5e527-3773-49e3-96d2-d97b991a143b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;product-price&quot;)</value>
-      <webElementGuid>854795cc-2b31-423c-a964-a2594792feb7</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;chakra-container css-3fg9fx&quot;]/form[@class=&quot;css-bex158&quot;]/div[@class=&quot;css-1005ark&quot;]/p[@class=&quot;chakra-text css-14rniuf&quot;]</value>
+      <webElementGuid>789b123e-ac9a-4b59-aa84-14c17572dd4f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//p[@id='product-price']</value>
-      <webElementGuid>3ad575ce-7ba5-44ed-b0ac-446ef4a2cb36</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/form/div/p[2]</value>
-      <webElementGuid>01472601-2308-4f86-9d4b-42d8d83398cb</webElementGuid>
+      <value>//p[@id='product-price']</value>
+      <webElementGuid>87212071-222b-4e97-a471-4b641ff8c7f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kemeja Panjang Biru Gelap'])[2]/following::p[2]</value>
-      <webElementGuid>174377f9-f854-4b84-b074-6c27dab0b3cf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kaos Abu Polos'])[2]/following::p[2]</value>
+      <webElementGuid>6556239d-38d1-4e83-b983-7ecdc846c143</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kemeja Panjang Biru Gelap'])[1]/following::p[2]</value>
-      <webElementGuid>ed604651-a4b1-464c-8e61-55b2f105bded</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kaos Abu Polos'])[1]/following::p[2]</value>
+      <webElementGuid>4669485c-300e-4bed-a21e-6fbc92401dc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::p[2]</value>
-      <webElementGuid>2f712727-6dbb-4e5d-a156-1c057dbab8f8</webElementGuid>
+      <webElementGuid>b0ccd7b1-a5bd-4a01-8f29-14c9b4ce22b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::p[2]</value>
-      <webElementGuid>ed7f308e-4bf1-4665-9a83-9a03ff091537</webElementGuid>
+      <webElementGuid>e99b0420-c388-4588-a0ce-0118e9ae8080</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Rp']/parent::*</value>
-      <webElementGuid>2b3beae2-742a-44d8-b312-3d5e9ca43b52</webElementGuid>
+      <webElementGuid>63fa737f-8fad-45b9-9910-1745e6a398bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,14 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[2]</value>
-      <webElementGuid>d3129942-57f1-41ff-a952-285309f8bada</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//p[@id = 'product-price' and (text() = 'Rp 215.000' or . = 'Rp 215.000')]</value>
-      <webElementGuid>a1b52c4d-d29f-4740-8956-c9f069dd6d3d</webElementGuid>
+      <webElementGuid>958b8faf-2d6a-43dd-8211-817ef7ffafd1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

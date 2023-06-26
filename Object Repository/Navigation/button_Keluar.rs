@@ -3,15 +3,14 @@
    <description></description>
    <name>button_Keluar</name>
    <tag></tag>
-   <elementGuidId>31a2e7b1-5ae0-4404-84b4-9c373c691021</elementGuidId>
+   <elementGuidId>2affebe9-5874-4eee-b0e7-a57b287c6d5a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='menu-list-:rb:-menuitem-:rh:']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@name = 'nav-logout-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3b6f300e-e006-4f6d-9ec9-ffb3b08cb779</webElementGuid>
+      <webElementGuid>78247c4a-db68-42e4-8f28-fe11834d03d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>632a5b2c-6173-4045-a80d-067ca89a0940</webElementGuid>
+      <webElementGuid>c844e70b-eec6-4a15-9db1-140aee325ad1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-button chakra-menu__menuitem css-1vxzhjb</value>
-      <webElementGuid>14f06908-b781-4fe4-9efa-a25c3278049a</webElementGuid>
+      <webElementGuid>d51bca00-0b4b-4277-bff4-bcc75a78e42d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,15 +45,15 @@
       <name>name</name>
       <type>Main</type>
       <value>nav-logout-button</value>
-      <webElementGuid>9a00631d-8db3-44fd-bff8-721d006a48cc</webElementGuid>
+      <webElementGuid>5a3c153e-6a5c-4621-a74b-d93cdcd9d086</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>menu-list-:rb:-menuitem-:rh:</value>
-      <webElementGuid>f07a68e1-96d3-4be9-98e1-274cce16edcd</webElementGuid>
+      <value>menu-list-:r1f:-menuitem-:r1l:</value>
+      <webElementGuid>a4e116f0-431c-4f3c-960c-ca22eb2a29d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>7ba34135-5d32-41cb-a6b7-7dbd94d9c482</webElementGuid>
+      <webElementGuid>f8fe46be-2d71-4600-829f-7358acf5d54f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>52cd9fa6-9373-4034-be42-38d665da89af</webElementGuid>
+      <webElementGuid>f6f7982f-17fc-4608-aa79-b65b2a37118f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>data-index</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>1e0f017a-5f39-44c1-94a7-904d7f0ca2ab</webElementGuid>
+      <webElementGuid>4189c7d3-2fb8-4ca2-be83-f48dffc70d1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,31 +85,31 @@
       <name>text</name>
       <type>Main</type>
       <value>Keluar</value>
-      <webElementGuid>15930ec2-eed8-478e-adbc-30bdfbd6ad12</webElementGuid>
+      <webElementGuid>932530ec-38d4-426b-be7d-cd7b650b045c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;menu-list-:rb:-menuitem-:rh:&quot;)</value>
-      <webElementGuid>17c9af72-a01b-4512-87be-e2621b42f3a5</webElementGuid>
+      <value>id(&quot;menu-list-:r1f:-menuitem-:r1l:&quot;)</value>
+      <webElementGuid>7562f334-d8a5-4ced-b50f-f33d19e58283</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='menu-list-:rb:-menuitem-:rh:']</value>
-      <webElementGuid>73ba10a6-054c-4fc9-926b-7cc340c1a184</webElementGuid>
+      <value>//button[@name = 'nav-logout-button']</value>
+      <webElementGuid>f276f631-3a80-46f1-82d1-e68fa6a143a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='menu-list-:rb:']/button</value>
-      <webElementGuid>34f4dd3b-e7e9-4b61-9cd5-d42298e916c4</webElementGuid>
+      <value>//div[@id='menu-list-:r1f:']/button</value>
+      <webElementGuid>474f5780-e60e-48a7-992f-f9c7093b6849</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pembelian'])[1]/following::button[1]</value>
-      <webElementGuid>e78728e4-e85a-46f0-bea4-3642a7f5a299</webElementGuid>
+      <webElementGuid>bbd157ce-ed6a-41dd-9f58-7d8f43a04ff2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,23 +125,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil'])[1]/following::button[1]</value>
-      <webElementGuid>6ab2991b-ae59-4214-9a48-b98e137b0bfa</webElementGuid>
+      <webElementGuid>1e755998-6b4e-4f9f-a0a4-77885c5b029a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua Produk'])[1]/preceding::button[1]</value>
-      <webElementGuid>1d9e5a3e-0021-477e-a7bb-a3f4ee608d47</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kaos Hitam Polos'])[1]/preceding::button[1]</value>
+      <webElementGuid>bb1fcc24-f68b-4f24-bbba-bc5ce25496c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::button[1]</value>
-      <webElementGuid>8fb0c0b9-282b-4bf9-a975-83bd32e5d0ae</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YukJahit'])[2]/preceding::button[1]</value>
+      <webElementGuid>879389d8-bd53-4bad-9bf5-de9e638f0b01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +149,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Keluar']/parent::*</value>
-      <webElementGuid>ebf1c8da-84e3-4fa0-9e00-83a44f6f74c7</webElementGuid>
+      <webElementGuid>76220aee-57ba-45b5-9463-03de6938aceb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,14 +157,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/button</value>
-      <webElementGuid>ddf0e54f-43b1-4e4b-88b0-41feaf8fb649</webElementGuid>
+      <webElementGuid>734719a7-e6a2-49e6-815a-6fae2a954434</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @name = 'nav-logout-button' and @id = 'menu-list-:rb:-menuitem-:rh:' and (text() = 'Keluar' or . = 'Keluar')]</value>
-      <webElementGuid>7d62cadf-fe4a-429d-9219-be82da975764</webElementGuid>
+      <value>//button[@type = 'button' and @name = 'nav-logout-button' and (text() = 'Keluar' or . = 'Keluar')]</value>
+      <webElementGuid>af93c003-3235-430f-a3ee-7c783e7964f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
