@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/')
+WebUI.navigateToUrl('https://yukjahit.vercel.app/')
 
 WebUI.click(findTestObject('Object Repository/Page_Home  YukJahit/a_Kaos Abu Polosby YukJahitRp 180.000'))
 
@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/Page_Detail Produk/button_incremen
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Detail Produk/button_Add to Cart'))
 
-WebUI.navigateToUrl('http://localhost:5173/products/somerandomid')
+WebUI.navigateToUrl('https://yukjahit.vercel.app/products/somerandomid')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Produk tidak ditemukan  YukJahit/div_Produk tidak ditemukan'), 
     'Produk tidak ditemukan')

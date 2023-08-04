@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='toast-3']</value>
+         <value>//div[contains(text(), 'Produk berhasil ditambahkan')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a043cd09-5f5a-45c5-bf2f-bf19a138e671</webElementGuid>
+      <webElementGuid>0dfb6526-57fe-40b3-a7d1-27b79a435e85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>data-status</name>
       <type>Main</type>
       <value>success</value>
-      <webElementGuid>82f11abb-61b8-466c-b0d9-72c492e24552</webElementGuid>
+      <webElementGuid>a63c8cb9-1a4a-4279-920b-af606773e1e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>toast-3</value>
-      <webElementGuid>1753a2a4-356b-4dae-9269-8c92d64c340a</webElementGuid>
+      <webElementGuid>6dd69bc5-7844-4efb-a554-5e3881696113</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-alert css-qret8q</value>
-      <webElementGuid>2f59ede3-f156-4d46-90e1-d6c58b7fdebc</webElementGuid>
+      <webElementGuid>2b0e85aa-18c1-4f2f-bd8e-949649313c8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Kaos Hitam Polos x1 berhasil ditambahkan ke keranjang</value>
-      <webElementGuid>2726ba98-643e-48d8-b146-8453e83d6b8b</webElementGuid>
+      <webElementGuid>1843da90-a902-4af0-90c4-d927fd04f400</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,23 +62,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;toast-3&quot;)</value>
-      <webElementGuid>3ab7a695-35de-4877-87f6-3b3bb6b64635</webElementGuid>
+      <webElementGuid>a53be67d-dbd0-41b1-a1cd-27d7f030d530</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='toast-3']</value>
-      <webElementGuid>687d5662-2c03-4236-8c9d-3e7687effce2</webElementGuid>
+      <value>//div[contains(text(), 'Produk berhasil ditambahkan')]</value>
+      <webElementGuid>af29b1da-b2f2-434c-bd65-6f05302002fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='chakra-toast-manager-bottom']/li/div/div</value>
-      <webElementGuid>e83d870e-9050-4a2a-893b-634f204c9554</webElementGuid>
+      <value>//div[contains(text(), 'Produk berhasil ditambahkan')]/li/div/div</value>
+      <webElementGuid>f01e1de0-b05f-4333-b621-384392d4d610</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[3]</value>
-      <webElementGuid>bfbcef52-e6cc-4dc4-966d-2a9d64499a47</webElementGuid>
+      <webElementGuid>9775a924-a84e-4b99-b3ed-8acaaec2136e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::div[3]</value>
-      <webElementGuid>88ddb899-3632-4f73-be44-a7936cfb59f2</webElementGuid>
+      <webElementGuid>27b2e405-f39c-4dbc-8875-4da97aaf812f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'toast-3', '&quot;', ')')])[1]/preceding::div[3]</value>
-      <webElementGuid>adaf949f-f53b-49f6-812f-8c35b3f3900f</webElementGuid>
+      <webElementGuid>6ea79102-0986-4b05-a933-1931971f4ce0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/div/div</value>
-      <webElementGuid>d5349d50-3868-4d99-bc5c-4e814bd1e130</webElementGuid>
+      <webElementGuid>74378c5a-d701-44f3-82ab-d96f5241f6b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'toast-3' and (text() = 'Produk berhasil ditambahkan ke keranjang' or . = 'Produk berhasil ditambahkan ke keranjang')]</value>
-      <webElementGuid>96d58877-bfc8-422e-8ff9-a329df43e5a3</webElementGuid>
+      <webElementGuid>fb968c94-9b14-4f3f-9b17-ac847a2abce8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

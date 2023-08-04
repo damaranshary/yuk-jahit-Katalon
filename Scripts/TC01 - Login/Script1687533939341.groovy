@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/')
+WebUI.navigateToUrl('https://yukjahit.vercel.app/')
 
 WebUI.click(findTestObject('Navigation/a_Masuk'))
 
@@ -41,8 +41,10 @@ WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Passw
 
 WebUI.click(findTestObject('Object Repository/Page_Masuk  YukJahit/button_Masuk'))
 
+'\r\n'
 if (Expected == 'success') {
-    WebUI.verifyElementVisible(findTestObject('Toasts/div_Login Berhasil'), FailureHandling.STOP_ON_FAILURE)
+    'TC01001'
+    WebUI.verifyElementVisible(findTestObject('Toasts/div_Edit Profil Berhasil'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyElementPresent(findTestObject('Object Repository/Navigation/button_Akun'), 0)
 
@@ -52,12 +54,14 @@ if (Expected == 'success') {
 
     WebUI.click(findTestObject('Object Repository/Navigation/button_Keluar'))
 } else if (Expected == 'failed') {
+    'TC01002'
     WebUI.verifyElementVisible(findTestObject('Toasts/div_Login Gagal'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Email_email'), '')
 
     WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Password_password'), '')
 } else if (Expected == 'nothing') {
+    'TC01003'
     WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Masuk  YukJahit/h2_Masuk'), 0)
 
     WebUI.setText(findTestObject('Object Repository/Page_Masuk  YukJahit/input_Email_email'), '')

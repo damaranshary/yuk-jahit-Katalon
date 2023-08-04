@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='cancel-order-button-1']</value>
+         <value>//button[@id='cancel-order-button-4']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d49e063e-fc6a-49e9-90dc-0369bc8766b9</webElementGuid>
+      <webElementGuid>765588e5-5572-45e7-a0a4-8174e9c8b8af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1d08b0c7-e072-4bdf-9a9f-dfaea38af7a9</webElementGuid>
+      <webElementGuid>e1618151-6223-4865-9a74-04afa1a370a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-button css-1juyv81</value>
-      <webElementGuid>81432183-795a-4b9e-9006-2835d14bd464</webElementGuid>
+      <webElementGuid>2a7bbe59-247d-41ae-bc53-2b922983a7f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>cancel-order-button-23</value>
-      <webElementGuid>4fe87270-e37b-4a35-b167-f511623afd38</webElementGuid>
+      <webElementGuid>e3ace30e-d5e8-4ebd-ad3a-b5571a853374</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Batalkan</value>
-      <webElementGuid>cd616dfb-43eb-4546-a525-b686e25c7796</webElementGuid>
+      <webElementGuid>4d72a372-8735-4348-8b64-e21319040964</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,23 +62,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cancel-order-button-23&quot;)</value>
-      <webElementGuid>415f8225-1c75-4477-9e8f-a200861debaf</webElementGuid>
+      <webElementGuid>957e7999-c54c-4d3e-a796-1299d5162408</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='cancel-order-button-1']</value>
-      <webElementGuid>f08cf9a9-1719-41b8-93ea-90e3d4283f99</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='64971db3a4e8ae9819877d97']/div[4]/button</value>
-      <webElementGuid>d6160f1c-8365-4df9-a2b2-ab242c3f7551</webElementGuid>
+      <value>//button[@id='cancel-order-button-4']</value>
+      <webElementGuid>aed375a3-abfb-462e-9253-214d7e1025b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Detail Transaksi'])[23]/following::button[1]</value>
-      <webElementGuid>91ab01b9-c9ea-4590-9c9b-16bf30f22665</webElementGuid>
+      <webElementGuid>b01f6ab3-a79c-43a0-8f35-362e0e4d913f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::button[1]</value>
-      <webElementGuid>d8c62ded-ec16-47e5-a1e4-ee2306b1e1e8</webElementGuid>
+      <webElementGuid>acbfb0d7-367c-46c2-9ce3-e966300e37e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/preceding::button[1]</value>
-      <webElementGuid>028b66cf-acdc-4c1f-a38e-c663f94b5aba</webElementGuid>
+      <webElementGuid>9317659b-01e6-473a-b4b7-c8f539f4f86f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,14 +102,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[23]/div[4]/button</value>
-      <webElementGuid>c8480676-da6a-43f7-8a01-4579aab5a4ee</webElementGuid>
+      <webElementGuid>32016cbc-820b-4102-a5f7-c65144c179dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'cancel-order-button-1' and (text() = 'Batalkan' or . = 'Batalkan')]</value>
-      <webElementGuid>3e3e341d-6edf-4ddf-8039-46a7e1a082fa</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'cancel-order-button-4' and (text() = 'Batalkan' or . = 'Batalkan')]</value>
+      <webElementGuid>c44144aa-525f-44c1-b434-d04940204c9f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_order status</name>
+   <name>div_Apakah anda yakin ingin membatalkan transaksi</name>
    <tag></tag>
-   <elementGuidId>b49762bf-ac1b-44ae-8aba-9c6eb61ae47c</elementGuidId>
+   <elementGuidId>359ceab1-2f54-42ec-9da0-31cf103291cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#order-status</value>
+         <key>XPATH</key>
+         <value>//div[@id='chakra-modal--body-cancel-order-alert-dialog']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//p[@id='order-status-4']</value>
+         <key>CSS</key>
+         <value>#chakra-modal--body-cancel-order-alert-dialog</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
-      <webElementGuid>7461bc4d-23d6-41c9-a2b7-860e4cd263a4</webElementGuid>
+      <value>div</value>
+      <webElementGuid>7a2a9fa8-6bea-4989-b663-27cde8e4ecdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>chakra-text css-1alepa3</value>
-      <webElementGuid>bc26f4fe-0eac-4264-99d7-f997b7bd223e</webElementGuid>
+      <value>chakra-modal__body css-qlig70</value>
+      <webElementGuid>148326b4-c6ea-4962-a6b4-00a2a0f87c4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>order-status</value>
-      <webElementGuid>e0dff008-bb60-4231-a11a-6ec98ab78d04</webElementGuid>
+      <value>chakra-modal--body-cancel-order-alert-dialog</value>
+      <webElementGuid>674cec5a-0da9-489c-ba3d-237b29c45c1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Selesai</value>
-      <webElementGuid>1976b99f-acd3-473f-a44d-439c59e61e18</webElementGuid>
+      <value>Apakah anda yakin ingin membatalkan transaksi?</value>
+      <webElementGuid>851a74f7-7c9b-4f87-8494-f6a2331ba896</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;64736fbaa29bb2f4bb16e630&quot;)/div[@class=&quot;css-1hu54g4&quot;]/p[@id=&quot;order-status&quot;]</value>
-      <webElementGuid>ad54898c-0e47-46f4-abdd-a89c4b737eb3</webElementGuid>
+      <value>id(&quot;chakra-modal--body-cancel-order-alert-dialog&quot;)</value>
+      <webElementGuid>3683399e-d805-4722-ac16-1dc031de57a4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//p[@id='order-status-4']</value>
-      <webElementGuid>dd1072b5-8691-48cf-af0b-f575f550f88a</webElementGuid>
+      <value>//div[@id='chakra-modal--body-cancel-order-alert-dialog']</value>
+      <webElementGuid>30e0d7b8-eb03-4da3-8a2b-9d56ba3d6021</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[]/div/p</value>
-      <webElementGuid>217acf18-d18d-4df5-8abc-6c58fdc2f7c0</webElementGuid>
+      <value>//section[@id='chakra-modal-cancel-order-alert-dialog']/div</value>
+      <webElementGuid>07ec16e6-9236-4d49-b222-95a2787556e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Belanja'])[1]/following::p[1]</value>
-      <webElementGuid>25d63ee1-8362-4475-8d8c-f0dfaa391a0e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'chakra-modal--body-cancel-order-alert-dialog', '&quot;', ')')])[1]/following::div[6]</value>
+      <webElementGuid>7b17be61-a287-4e5f-8d58-910d5d404346</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Transaksi'])[1]/following::p[1]</value>
-      <webElementGuid>ef1432d6-f06d-4f26-a752-b95c0ac06fd9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[9]</value>
+      <webElementGuid>8bfc2cf4-daf4-4847-98af-c437079ee480</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kaos Putih Polos'])[1]/preceding::p[3]</value>
-      <webElementGuid>063fcd38-b348-40fd-b566-f32bd05c6b18</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[1]/preceding::div[1]</value>
+      <webElementGuid>2fa1659c-4ac4-45fe-a01f-93b1a013e245</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Detail Transaksi'])[1]/preceding::p[5]</value>
-      <webElementGuid>722fbec1-05cb-4a14-a840-96cf14085760</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batalkan'])[55]/preceding::div[1]</value>
+      <webElementGuid>eaf2fce4-60ad-41cf-8428-510dfcdd1b6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Selesai']/parent::*</value>
-      <webElementGuid>534bb89d-a7e5-4dc1-9b44-1424bbbc273c</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Apakah anda yakin ingin membatalkan transaksi?']/parent::*</value>
+      <webElementGuid>8f439d61-4f07-4baf-ab92-1556fb3f00fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p</value>
-      <webElementGuid>47132fe9-72c7-4a52-b616-0e6155764da7</webElementGuid>
+      <value>//section/div</value>
+      <webElementGuid>493c6014-7cd6-4e32-97c9-25ef467ed071</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[@id = 'order-status-4']</value>
-      <webElementGuid>fddfca65-49f6-4212-b742-b2a9a16e6904</webElementGuid>
+      <value>//div[@id = 'chakra-modal--body-cancel-order-alert-dialog' and (text() = 'Apakah anda yakin ingin membatalkan transaksi?' or . = 'Apakah anda yakin ingin membatalkan transaksi?')]</value>
+      <webElementGuid>1256db61-58d4-4f6a-b3fd-d20b47460001</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

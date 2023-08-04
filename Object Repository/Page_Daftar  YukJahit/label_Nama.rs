@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[@id='field-:r1:-label']</value>
+         <value>//label[contains(text(), 'Nama')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>737aa122-4160-4102-878e-aa6577a0b335</webElementGuid>
+      <webElementGuid>d99cfa67-ade7-4374-aa0d-2d5d62fa4dea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>field-:r1:-label</value>
-      <webElementGuid>62256f9a-906b-4764-8134-ddac042198fc</webElementGuid>
+      <webElementGuid>7341e569-14d5-4983-ae44-3b9cf274d4aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>for</name>
       <type>Main</type>
       <value>field-:r1:</value>
-      <webElementGuid>dd05792c-5976-4e50-a27e-e4349a496a33</webElementGuid>
+      <webElementGuid>872ad3a0-4ce8-4659-b0b7-35e5ecc11cc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-form__label css-g6pte</value>
-      <webElementGuid>7a9e087e-8e76-4ba4-b446-5451c21901bd</webElementGuid>
+      <webElementGuid>5129baf1-025d-49a5-bcb8-d2ef411a3250</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nama*</value>
-      <webElementGuid>b98a155a-7e19-4903-8948-711de264f841</webElementGuid>
+      <webElementGuid>7853f8f7-0b50-488a-94ea-9a4446335db5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;field-:r1:-label&quot;)</value>
-      <webElementGuid>020dbc76-c60f-4246-99cd-28147e719e78</webElementGuid>
+      <webElementGuid>abf4a1f5-2b47-4d66-bb4d-e08a5d94d8de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//label[@id='field-:r1:-label']</value>
-      <webElementGuid>c9eea487-c4aa-4462-99fd-5c41e74254a1</webElementGuid>
+      <value>//label[contains(text(), 'Nama')]</value>
+      <webElementGuid>afd94819-e42b-49e5-abb0-9d8edf9029ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/form/div/label</value>
-      <webElementGuid>fe17dd18-b6e6-4e25-ac21-df4d21515873</webElementGuid>
+      <webElementGuid>eec54676-ec7f-4642-bcbe-2cf7b061da95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[2]/following::label[1]</value>
-      <webElementGuid>ffd3390a-7b09-4c1e-85d8-87878ee29172</webElementGuid>
+      <webElementGuid>7472ab44-ec41-405f-a74d-068fb9b0fa01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jahit'])[2]/following::label[1]</value>
-      <webElementGuid>33d2d452-19b2-4de5-8465-cc456beead8c</webElementGuid>
+      <webElementGuid>490aaade-e8b9-49ab-84fa-314d7207598f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='We will never share your email.'])[1]/preceding::label[2]</value>
-      <webElementGuid>2569e87c-6319-44d0-a1ae-93355000962c</webElementGuid>
+      <webElementGuid>296d6537-d0cf-436b-8bf3-196133bd639a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Nama']/parent::*</value>
-      <webElementGuid>02658664-2ad3-43eb-99e1-f1f146c6857c</webElementGuid>
+      <webElementGuid>51248c83-1412-4f5c-ac02-2b8792b6ceac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label</value>
-      <webElementGuid>ed6d2252-bfd1-46a8-b7e7-db1485ac9982</webElementGuid>
+      <webElementGuid>7f032511-b43d-4b2e-97e4-f4ba14ee2d6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[@id = 'field-:r1:-label' and (text() = 'Nama*' or . = 'Nama*')]</value>
-      <webElementGuid>39b5684d-368a-4be2-b1f3-531d19397623</webElementGuid>
+      <webElementGuid>d0c22264-2693-454e-a931-cb9761f90ac8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

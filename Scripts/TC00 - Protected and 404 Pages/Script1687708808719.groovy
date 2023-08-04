@@ -19,23 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/cart')
+WebUI.navigateToUrl('https://yukjahit.vercel.app/cart')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Silahkan login terlebih dahulu'))
 
-WebUI.navigateToUrl('http://localhost:5173/profile')
+WebUI.navigateToUrl('https://yukjahit.vercel.app/profile')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Silahkan login terlebih dahulu'))
 
-WebUI.navigateToUrl('http://localhost:5173/order')
+WebUI.navigateToUrl('https://yukjahit.vercel.app/order')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Silahkan login terlebih dahulu'))
 
-WebUI.navigateToUrl('http://localhost:5173/checkout')
+WebUI.navigateToUrl('https://yukjahit.vercel.app/checkout')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Silahkan login terlebih dahulu'))
 
-WebUI.navigateToUrl('http://localhost:5173/somerandomroutes')
+WebUI.navigateToUrl('https://yukjahit.vercel.app/rutetidakada')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Halaman tidak ditemukan  YukJahit/img_Daftar_chakra-image css-12mhnvv'), 
     0)

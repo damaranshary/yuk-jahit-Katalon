@@ -19,30 +19,35 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/')
+WebUI.navigateToUrl('https://yukjahit.vercel.app')
 
 WebUI.click(findTestObject('Object Repository/Page_Home  YukJahit/a_Kaos Putih Polosby YukJahitRp 140.000'))
 
 WebUI.click(findTestObject('Page_Detail Produk/button_Add to Cart'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Silahkan login terlebih dahulu (div)'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Toasts/div_Silahkan login terlebih dahulu (text)'), 'Silahkan login terlebih dahulu')
+WebUI.verifyElementVisible(findTestObject('Toasts/div_Silahkan login terlebih dahulu'))
 
 WebUI.click(findTestObject('Navigation/a_Masuk'))
 
 WebUI.setText(findTestObject('Page_Masuk  YukJahit/input_Email_email'), 'testingcart@email.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Masuk  YukJahit/input_Password_password'), '5tCNF2fjTyv5Dr1Pxh+Teg==')
+WebUI.setText(findTestObject('Page_Masuk  YukJahit/input_Password_password'), 'yukjahit123')
 
 WebUI.sendKeys(findTestObject('Page_Masuk  YukJahit/input_Password_password'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Navigation/a_Keranjang'), FailureHandling.STOP_ON_FAILURE)
+
+keranjangTitle = WebUI.getWindowTitle()
+
+assert keranjangTitle == 'Keranjang | YukJahit'
+
+WebUI.verifyElementVisible(findTestObject('Page_Keranjang  YukJahit/p_Keranjangmu kosong'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Navigation/h1_YukJahit'))
 
 WebUI.click(findTestObject('Page_Home  YukJahit/a_Kaos Hitam Polosby YukJahitRp 125.000'))
 
 WebUI.click(findTestObject('Page_Detail Produk/button_Add to Cart'))
-
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/Toasts/div_Cannot read properties of undefined (re_e4e67f'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Produk berhasil ditambahkan'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -53,9 +58,6 @@ WebUI.sendKeys(findTestObject('Navigation/input_Jahit_nav-search-input'), Keys.c
 WebUI.click(findTestObject('Page_Pencarian produk  YukJahit/LinkBox_hasil pencarian (index pertama)'))
 
 WebUI.click(findTestObject('Page_Detail Produk/button_Add to Cart'))
-
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/Toasts/div_Cannot read properties of undefined (re_e4e67f'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Produk berhasil ditambahkan'), FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Registrasi Gagal</name>
+   <name>button_Kembali (alert dialog cancel)</name>
    <tag></tag>
-   <elementGuidId>23199891-ce0e-45ef-894b-1b2156e6a607</elementGuidId>
+   <elementGuidId>8602e45f-32cd-4db0-a36a-976c0ba05087</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#toast-2-description</value>
+         <key>XPATH</key>
+         <value>//button[@id='cancel-order-close-button']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='toast-2-description']</value>
+         <key>CSS</key>
+         <value>#cancel-order-close-button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>5291e274-865e-4ca0-b24a-b487c45ec909</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-status</name>
-      <type>Main</type>
-      <value>error</value>
-      <webElementGuid>e8a9031a-ebff-4e39-a744-bf784f63a8b4</webElementGuid>
+      <value>button</value>
+      <webElementGuid>0d1b6358-db23-4182-b37b-cfb7845bd458</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>toast-2-description</value>
-      <webElementGuid>70a956be-1a20-4851-9503-b54f1a3cb07c</webElementGuid>
+      <value>button</value>
+      <webElementGuid>edb8f40c-db36-4c02-b8f7-fb63174909c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>chakra-alert__desc css-161kwbg</value>
-      <webElementGuid>002ce90c-cf34-422d-8f56-0603ddc0f9a0</webElementGuid>
+      <value>chakra-button css-ltpsxk</value>
+      <webElementGuid>e1189cef-9ba8-424c-bc22-dcccbdb5ffce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cancel-order-close-button</value>
+      <webElementGuid>890ca3b5-78d0-4258-a7fb-7799be126106</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Registrasi Gagal</value>
-      <webElementGuid>f9f9adf9-b505-473e-90fd-e86c38f3b9d4</webElementGuid>
+      <value>Kembali</value>
+      <webElementGuid>a9a16247-7d03-49d4-b446-0dda1f0cc992</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;toast-2-description&quot;)</value>
-      <webElementGuid>78254847-d859-4f38-b6af-4b675ee6e925</webElementGuid>
+      <value>id(&quot;cancel-order-close-button&quot;)</value>
+      <webElementGuid>2ca10945-7f0a-4ea0-ba15-13795dbc847d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='toast-2-description']</value>
-      <webElementGuid>c8f46b5e-580d-4178-a92f-b0ee26bf4a9e</webElementGuid>
+      <value>//button[@id='cancel-order-close-button']</value>
+      <webElementGuid>4ffa022a-c6d8-4b98-8485-f8a66a4cd1af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='toast-2']/div/div</value>
-      <webElementGuid>4e7c9f9e-455b-45c0-85de-21facca2955e</webElementGuid>
+      <value>//section[@id='chakra-modal-cancel-order-alert-dialog']/footer/button</value>
+      <webElementGuid>348ba982-4460-407c-b6f2-56b0287ec202</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[5]</value>
-      <webElementGuid>87e34694-edce-4e5a-b165-3eacdeaf4546</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apakah anda yakin ingin membatalkan transaksi?'])[1]/following::button[1]</value>
+      <webElementGuid>33a7e8ea-c560-4da4-8819-b96ab3e491fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::div[5]</value>
-      <webElementGuid>ca33f4c6-e740-4115-b749-199f022242b9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'cancel-order-close-button', '&quot;', ')')])[1]/following::button[2]</value>
+      <webElementGuid>4888dce7-5fcf-46ed-bd9a-f70fdf336165</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'toast-2-description', '&quot;', ')')])[1]/preceding::div[1]</value>
-      <webElementGuid>93641c90-9dfd-442b-89a6-8c1876fbfa5d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batalkan'])[55]/preceding::button[1]</value>
+      <webElementGuid>e99b426f-379e-47ea-882d-8c9ebd01dfd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Registrasi Gagal']/parent::*</value>
-      <webElementGuid>5c71a956-61b0-479f-8132-c36e76e2d4f0</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Kembali']/parent::*</value>
+      <webElementGuid>676ebaff-9ffa-42cb-8409-c0c00dc3622c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div</value>
-      <webElementGuid>85b98604-e00a-4168-9b99-a50834f92d6f</webElementGuid>
+      <value>//footer/button</value>
+      <webElementGuid>3db8d0a0-bd93-4a52-87b7-19d80c0e255b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'toast-2-description' and (text() = 'Registrasi Gagal' or . = 'Registrasi Gagal')]</value>
-      <webElementGuid>716d245c-2dcc-4506-92f4-f0139e686b87</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'cancel-order-close-button' and (text() = 'Kembali' or . = 'Kembali')]</value>
+      <webElementGuid>29a4b0cd-9935-49b4-9636-9ac6831ee52c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

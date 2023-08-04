@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[@id='field-:r9:-label']</value>
+         <value>//label[contains(text(), 'Nomor HP')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>36114d49-d710-4007-83e1-a350ba528450</webElementGuid>
+      <webElementGuid>f24acd8a-c89b-46bc-9f35-3fbdf92c170d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>field-:r9:-label</value>
-      <webElementGuid>de64d346-05ad-4969-afa1-60025db1985a</webElementGuid>
+      <webElementGuid>a794b6e2-e2f0-4985-8ca4-f9fbd91aef71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>for</name>
       <type>Main</type>
       <value>field-:r9:</value>
-      <webElementGuid>227796cf-bbbe-4871-a633-15bf4f731a49</webElementGuid>
+      <webElementGuid>b57ce161-54d9-4863-a592-c61ac8b67c04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-form__label css-g6pte</value>
-      <webElementGuid>2b4d5307-efc2-4a86-b0e8-8f089701c9ee</webElementGuid>
+      <webElementGuid>08fcfef4-5cd7-4e8b-a837-1fb3d9970971</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nomor HP*</value>
-      <webElementGuid>5421ec0a-dca4-40ad-8224-4bd1a8f81206</webElementGuid>
+      <webElementGuid>ff009458-a6bd-4388-a36c-f0d7bbc89392</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;field-:r9:-label&quot;)</value>
-      <webElementGuid>cd7ff76e-6fbb-40ca-818b-28622ebc2eb9</webElementGuid>
+      <webElementGuid>74b6de32-e347-4614-afc6-8298f81cbfa8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//label[@id='field-:r9:-label']</value>
-      <webElementGuid>ac725752-2eb7-4335-a576-ca942f0059dc</webElementGuid>
+      <value>//label[contains(text(), 'Nomor HP')]</value>
+      <webElementGuid>9357764c-a250-4826-a772-bb9ba46d7e31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/form/div[5]/label</value>
-      <webElementGuid>55257cfa-b15e-46b0-b20c-2475a9a91ff9</webElementGuid>
+      <webElementGuid>4ee074f3-1837-4971-ab76-3c3052eecc2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Lengkap'])[1]/preceding::label[2]</value>
-      <webElementGuid>7058c965-cd40-4946-ba06-4c8f62478cea</webElementGuid>
+      <webElementGuid>a29ced15-b7b2-42ff-942f-810014f6b01d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Nomor HP']/parent::*</value>
-      <webElementGuid>81e63450-9b0c-4adc-a4f8-64f954b0d22b</webElementGuid>
+      <webElementGuid>607ead22-00e6-4fd1-b9c2-c3daba53c6cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/label</value>
-      <webElementGuid>c95b663d-4f45-488d-b53a-21ffc518a266</webElementGuid>
+      <webElementGuid>6dfa6546-adbc-4e6d-9ddc-4fabd699a329</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[@id = 'field-:r9:-label' and (text() = 'Nomor HP*' or . = 'Nomor HP*')]</value>
-      <webElementGuid>b99fb006-1538-4b7e-9e79-6e6993bfed2f</webElementGuid>
+      <webElementGuid>a0d23725-c64c-4286-b545-a6a26d79bbca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/')
+WebUI.navigateToUrl('https://yukjahit.vercel.app')
 
 WebUI.setText(findTestObject('Navigation/input_Jahit_nav-search-input'), Query)
 

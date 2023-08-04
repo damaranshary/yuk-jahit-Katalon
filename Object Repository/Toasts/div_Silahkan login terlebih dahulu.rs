@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='toast-2-description']</value>
+         <value>//div[contains(text(), 'Silahkan login terlebih dahulu')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>783a3f6d-7bf7-4811-b49e-8f692f288a4c</webElementGuid>
+      <webElementGuid>33fbc0eb-feaa-4cee-960e-ae5d52edc84a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>data-status</name>
       <type>Main</type>
       <value>warning</value>
-      <webElementGuid>9d3c3c93-af53-4c7d-8a53-757fa5243499</webElementGuid>
+      <webElementGuid>5a140587-a4be-4411-9e7b-437407c82359</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>toast-2-description</value>
-      <webElementGuid>08b005a1-3363-41b5-a561-778cb121841a</webElementGuid>
+      <webElementGuid>56851fb4-d208-4559-8473-af2ada1cfd2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-alert__desc css-161kwbg</value>
-      <webElementGuid>c2bdd8f0-fdc2-449d-87b9-9ff6b348e6c2</webElementGuid>
+      <webElementGuid>ef0a2e79-c855-4199-b1d8-580a885238dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Silahkan login terlebih dahulu</value>
-      <webElementGuid>ebebf8b1-8dd5-426f-9b86-ff105e1067c5</webElementGuid>
+      <webElementGuid>f9d0d8b2-7cc8-4ded-aa62-6c52d182225d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +62,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;toast-2-description&quot;)</value>
-      <webElementGuid>740b3253-a2ed-4c4d-a1ca-e95f93c4915d</webElementGuid>
+      <webElementGuid>da719657-7280-444c-b74d-d10dc47cc1a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='toast-2-description']</value>
-      <webElementGuid>a69711b5-f383-4c2c-be9d-68428dc342da</webElementGuid>
+      <value>//div[contains(text(), 'Silahkan login terlebih dahulu')]</value>
+      <webElementGuid>78166cce-50f0-412b-996f-f558d9ee0082</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='toast-2']/div/div</value>
-      <webElementGuid>6b85318c-fea5-44c8-8ee1-9632af852da1</webElementGuid>
+      <webElementGuid>c3526a3b-75d0-439b-8462-abb3ac76337b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::div[5]</value>
-      <webElementGuid>16233f0a-1ac8-4882-9bea-bc68e7f038a7</webElementGuid>
+      <webElementGuid>822dbb0f-9f57-4084-bddf-34efeb9d33c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::div[5]</value>
-      <webElementGuid>a7532870-79cc-4fc8-bc0a-9c50dd078168</webElementGuid>
+      <webElementGuid>fff8080b-5d5b-4116-8eb1-09e4f0a846cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'toast-2-description', '&quot;', ')')])[1]/preceding::div[1]</value>
-      <webElementGuid>9baf31a0-2ef5-40ff-be8b-82d1d88b2c89</webElementGuid>
+      <webElementGuid>f4b35e1a-5738-40f7-91d1-7fdd303d379d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Silahkan login terlebih dahulu']/parent::*</value>
-      <webElementGuid>87b7af62-8b66-45f0-9f05-cbee3f692c7b</webElementGuid>
+      <webElementGuid>4143a15c-b382-4f18-b617-9f3fa0720e09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div</value>
-      <webElementGuid>c17d3293-ce15-4fad-9717-ace96ed0f7a0</webElementGuid>
+      <webElementGuid>b3b4241c-f758-4a8c-9eb7-fdeaa75f25be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'toast-2-description' and (text() = 'Silahkan login terlebih dahulu' or . = 'Silahkan login terlebih dahulu')]</value>
-      <webElementGuid>85432f09-1cf3-419f-aeed-5b87da93f118</webElementGuid>
+      <webElementGuid>1289d8be-35af-4240-83a3-db737e4b6e86</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

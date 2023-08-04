@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/')
+WebUI.navigateToUrl('https://yukjahit.vercel.app/')
 
 WebUI.click(findTestObject('Navigation/a_Masuk'))
 
-WebUI.setText(findTestObject('Page_Masuk  YukJahit/input_Email_email'), 'user@gmail.com')
+WebUI.setText(findTestObject('Page_Masuk  YukJahit/input_Email_email'), email)
 
-WebUI.setEncryptedText(findTestObject('Page_Masuk  YukJahit/input_Password_password'), '9KzOjDimb7zsqjjOXXaQnQ==')
+WebUI.setText(findTestObject('Page_Masuk  YukJahit/input_Password_password'), password)
 
 WebUI.sendKeys(findTestObject('Page_Masuk  YukJahit/input_Password_password'), Keys.chord(Keys.ENTER))
 
@@ -35,13 +35,13 @@ WebUI.click(findTestObject('Object Repository/Navigation/a_Profil'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil - YukJahit/h2_Profil Saya'), 'Profil Saya')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil - YukJahit/h3_Nama Lengkap'), 'Usery Tadd')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil - YukJahit/h3_Nama Lengkap'), name)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil - YukJahit/p_email_user'), 'user@gmail.com')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil - YukJahit/p_email_user'), email)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil - YukJahit/p_phone'), '08134489888')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil - YukJahit/p_phone'), phone)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil - YukJahit/p_Alamat'), 'Kp. Sejahtera Nusa Bangsa Satu Indonesia No. 23 Rt.03/Rw.09, Padalarang Tengah, Bandung Barat, Jawa Barat,')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil - YukJahit/p_Alamat'), address)
 
 WebUI.click(findTestObject('Object Repository/Page_Profil - YukJahit/button_Ubah Data Profil'))
 
@@ -59,15 +59,19 @@ WebUI.clearText(findTestObject('Page_Profil - YukJahit/input_Nama (modal)'), Fai
 
 WebUI.setText(findTestObject('Page_Profil - YukJahit/input_Nama (modal)'), '')
 
-WebUI.clearText(findTestObject('Page_Profil - YukJahit/input_Nomor HP (modal)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Profil - YukJahit/input_Nomor HP (modal)'), '0')
 
-WebUI.setText(findTestObject('Page_Profil - YukJahit/input_Nomor HP (modal)'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil - YukJahit/p_phone'), phone)
 
 WebUI.clearText(findTestObject('Page_Profil - YukJahit/input_Alamat Lengkap (modal)'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Page_Profil - YukJahit/input_Alamat Lengkap (modal)'), '')
 
-WebUI.click(findTestObject('Object Repository/Page_Profil - YukJahit/button_Ubah (modal)'))
+WebUI.click(findTestObject('Page_Profil - YukJahit/button_Ubah (modal)'))
+
+WebUI.verifyElementVisible(findTestObject('Toasts/div_Edit Profil Berhasil'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Profil - YukJahit/p_phone'), phone + '0')
 
 WebUI.click(findTestObject('Navigation/button_Akun'))
 

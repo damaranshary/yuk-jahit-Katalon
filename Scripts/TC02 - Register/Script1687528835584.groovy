@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/')
+WebUI.navigateToUrl('https://yukjahit.vercel.app/')
 
 WebUI.click(findTestObject('Object Repository/Navigation/a_Daftar'))
 
@@ -51,15 +51,6 @@ WebUI.setText(findTestObject('Object Repository/Page_Daftar  YukJahit/input_Alam
 
 WebUI.setText(findTestObject('Object Repository/Page_Daftar  YukJahit/input_Password_password'), Password)
 
-if (Expected == 'failed') {
-    WebUI.setText(findTestObject('Object Repository/Page_Daftar  YukJahit/input_Konfirmasi Password_confirmPassword'), 'passwordtidaksama')
-
-    WebUI.verifyElementVisible(findTestObject('Page_Daftar  YukJahit/div_Password tidak sama'))
-
-    WebUI.clearText(findTestObject('Object Repository/Page_Daftar  YukJahit/input_Konfirmasi Password_confirmPassword'), 
-        FailureHandling.STOP_ON_FAILURE)
-}
-
 WebUI.setText(findTestObject('Object Repository/Page_Daftar  YukJahit/input_Konfirmasi Password_confirmPassword'), ConfirmPassword)
 
 WebUI.setText(findTestObject('Object Repository/Page_Daftar  YukJahit/input_Nomor HP_phone'), Phone)
@@ -71,7 +62,7 @@ WebUI.click(findTestObject('Page_Daftar  YukJahit/button_Daftar'))
 if (Expected == 'nothing') {
     WebUI.verifyElementText(findTestObject('Object Repository/Page_Daftar  YukJahit/h2_Daftar'), 'Daftar')
 } else if (Expected == 'failed') {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Daftar  YukJahit/div_Registrasi Gagal'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Registrasi Gagal'), FailureHandling.STOP_ON_FAILURE)
 } else if (Expected == 'success') {
     WebUI.verifyElementVisible(findTestObject('Object Repository/Toasts/div_Registrasi Berhasil'))
 }

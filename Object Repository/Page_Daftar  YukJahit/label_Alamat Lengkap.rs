@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[@id='field-:rb:-label']</value>
+         <value>//label[contains(text(), 'Alamat Lengkap')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>9bfa7c1d-9c7d-4496-bc6e-ec8f69f70758</webElementGuid>
+      <webElementGuid>4b89e889-5be0-4451-808d-8553cfd94e91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>field-:rb:-label</value>
-      <webElementGuid>ace929f1-6bde-4f32-adc8-ae7c70ad6700</webElementGuid>
+      <webElementGuid>7cbe9447-5a15-4137-9728-4bc036bb88dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>for</name>
       <type>Main</type>
       <value>field-:rb:</value>
-      <webElementGuid>2be70522-94dd-467c-80ca-9afcb2fe81ef</webElementGuid>
+      <webElementGuid>fbd1bafc-1fe4-4b5a-b4f7-5818db38ac98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-form__label css-g6pte</value>
-      <webElementGuid>079a02c0-81f4-4519-b876-2fa0854f2b66</webElementGuid>
+      <webElementGuid>6bcbc147-94d8-4e71-833d-2be5abdb71db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Alamat Lengkap*</value>
-      <webElementGuid>fee66ce6-aa26-43d2-a22e-d32743e37beb</webElementGuid>
+      <webElementGuid>20c29d83-f1ed-431a-af2a-395ff83aff05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;field-:rb:-label&quot;)</value>
-      <webElementGuid>065099e5-f225-4d6d-950e-48f943d2a25c</webElementGuid>
+      <webElementGuid>04394646-81a3-4606-b5a6-033c3e616d7e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//label[@id='field-:rb:-label']</value>
-      <webElementGuid>a469c82e-f998-4d4e-9849-fa7ec700c07b</webElementGuid>
+      <value>//label[contains(text(), 'Alamat Lengkap')]</value>
+      <webElementGuid>5d0f7175-5c22-4c63-9b95-766483b302ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/form/div[6]/label</value>
-      <webElementGuid>88b5136b-0a7c-4114-9096-4e926592b7bd</webElementGuid>
+      <webElementGuid>f3d8f638-0ef2-459d-92db-021b23076448</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Lengkap'])[1]/preceding::label[1]</value>
-      <webElementGuid>8eeb4e41-c8a2-42ba-8258-04ab9ff6875f</webElementGuid>
+      <webElementGuid>11806d99-6b68-4148-9300-c53fecf487cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[3]/preceding::label[1]</value>
-      <webElementGuid>9b5eb488-a5a6-4439-96d0-9f7af861dc2f</webElementGuid>
+      <webElementGuid>30a77f4d-bab8-422f-9ca4-6841e70bbd8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Alamat Lengkap']/parent::*</value>
-      <webElementGuid>32cc9328-4052-404f-99d3-46fb9b63e8ba</webElementGuid>
+      <webElementGuid>d1a7a33e-2dd4-4eec-9de7-c4f4b16b1794</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/label</value>
-      <webElementGuid>e0e7c995-b065-4f7d-9be1-e09c9ee03c01</webElementGuid>
+      <webElementGuid>12ad595a-1ffc-4c8b-96af-74c23a5ed1a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[@id = 'field-:rb:-label' and (text() = 'Alamat Lengkap*' or . = 'Alamat Lengkap*')]</value>
-      <webElementGuid>8abe5d71-87a6-4f04-b777-d36d27d973c7</webElementGuid>
+      <webElementGuid>1851b877-a0b0-4e4f-8cfb-bd3c45b80143</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

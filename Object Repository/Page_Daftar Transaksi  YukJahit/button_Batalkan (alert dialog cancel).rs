@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_product in cart (index kedua)</name>
+   <name>button_Batalkan (alert dialog cancel)</name>
    <tag></tag>
-   <elementGuidId>09dd2b8d-6ed9-438e-9e78-7d7dcaf150d7</elementGuidId>
+   <elementGuidId>0ce3505d-743d-4fb4-80dc-da45abe7a6c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#cart-product-card-1</value>
+         <key>XPATH</key>
+         <value>//button[@id='cancel-order-confirmation-button']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='cart-product-card-2']</value>
+         <key>CSS</key>
+         <value>#cancel-order-confirmation-button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>c8dff7f3-a81b-4a69-b330-06a50d1af99f</webElementGuid>
+      <value>button</value>
+      <webElementGuid>4cb45222-c51e-42f8-8351-9477c2c395ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2963393a-02e6-415e-a297-778a1601d6f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>chakra-card chakra-container css-15h4j2r</value>
-      <webElementGuid>0abdd4f3-d49d-402a-830d-63439a4d275d</webElementGuid>
+      <value>chakra-button css-12is16t</value>
+      <webElementGuid>bbc5c482-9342-43ab-9c4c-dfa47707d043</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>cart-product-card-1</value>
-      <webElementGuid>438e3cde-2d90-4f50-ae35-d0ce36f67a1c</webElementGuid>
+      <value>cancel-order-confirmation-button</value>
+      <webElementGuid>c41c7de3-8015-4106-aad5-e81320199893</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kaos Hitam Polosby YukJahitRp 125.000Jumlah: 1</value>
-      <webElementGuid>b14cf36f-c289-4ba5-b98e-a97e38395bed</webElementGuid>
+      <value>Batalkan</value>
+      <webElementGuid>084594ac-cde0-410c-aa30-dee7b50f8c3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cart-product-card-1&quot;)</value>
-      <webElementGuid>7f100107-f55d-4cf8-924c-4f8105efbe37</webElementGuid>
+      <value>id(&quot;cancel-order-confirmation-button&quot;)</value>
+      <webElementGuid>b276adf4-5e9e-4ecf-94ad-79859b85f18b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//li[@id='cart-product-card-2']</value>
-      <webElementGuid>0ab4b167-206b-4e4a-813f-5fba7c6347ec</webElementGuid>
+      <value>//button[@id='cancel-order-confirmation-button']</value>
+      <webElementGuid>8bc8f9ee-2798-4cf0-b3a0-8056d90ef920</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='root']/div[2]/div/div</value>
-      <webElementGuid>13a4a1f0-c039-4f14-833d-4564dd664a63</webElementGuid>
+      <value>//section[@id='chakra-modal-cancel-order-alert-dialog']/footer/button[2]</value>
+      <webElementGuid>c6fa68a7-55ca-460c-9dfa-34358322e935</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keranjang'])[2]/following::div[2]</value>
-      <webElementGuid>8b035ea1-2d4b-4aae-b81c-9732446c92b7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[1]/following::button[1]</value>
+      <webElementGuid>5e39cc92-3e95-4095-8244-dbd091ccc557</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar'])[1]/following::div[3]</value>
-      <webElementGuid>5788dae8-a865-401f-ba8b-c44d9f45e28f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apakah anda yakin ingin membatalkan transaksi?'])[1]/following::button[2]</value>
+      <webElementGuid>a4034f91-8925-4591-aa4d-9b5fa2378e4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div</value>
-      <webElementGuid>a2dfabc1-a335-4c8b-b31e-caa0c89f8584</webElementGuid>
+      <value>//button[2]</value>
+      <webElementGuid>e139aac6-2380-4cb5-a009-6af514d687fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//li[@id = 'cart-product-card-2']</value>
-      <webElementGuid>e64f4b5b-6737-4b49-a08c-10e190053a60</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'cancel-order-confirmation-button' and (text() = 'Batalkan' or . = 'Batalkan')]</value>
+      <webElementGuid>e6e39689-4801-4b4f-bdef-9f3b194f594d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

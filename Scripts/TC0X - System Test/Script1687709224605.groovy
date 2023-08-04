@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/')
+WebUI.navigateToUrl('https://yukjahit.vercel.app/')
 
 WebUI.click(findTestObject('Navigation/a_Daftar'))
 
-WebUI.setText(findTestObject('Page_Daftar  YukJahit/input_Nama_name'), 'system test (1)')
+WebUI.setText(findTestObject('Page_Daftar  YukJahit/input_Nama_name'), 'system test katalon (1)')
 
 WebUI.setText(findTestObject('Page_Daftar  YukJahit/input_Alamat Email_email'), 'systemtestkatalon@email.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Daftar  YukJahit/input_Password_password'), '5tCNF2fjTyv5Dr1Pxh+Teg==')
+WebUI.setEncryptedText(findTestObject('Page_Daftar  YukJahit/input_Password_password'), '5tCNF2fjTytOufdTKCncEA==')
 
-WebUI.setEncryptedText(findTestObject('Page_Daftar  YukJahit/input_Konfirmasi Password_confirmPassword'), '5tCNF2fjTyv5Dr1Pxh+Teg==')
+WebUI.setEncryptedText(findTestObject('Page_Daftar  YukJahit/input_Konfirmasi Password_confirmPassword'), '5tCNF2fjTytOufdTKCncEA==')
 
 WebUI.setText(findTestObject('Page_Daftar  YukJahit/input_Nomor HP_phone'), '08123456789')
 
@@ -41,11 +41,11 @@ WebUI.verifyElementVisible(findTestObject('Toasts/div_Registrasi Berhasil'))
 
 WebUI.setText(findTestObject('Page_Masuk  YukJahit/input_Email_email'), 'systemtestkatalon@email.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Masuk  YukJahit/input_Password_password'), '5tCNF2fjTyv5Dr1Pxh+Teg==')
+WebUI.setEncryptedText(findTestObject('Page_Masuk  YukJahit/input_Password_password'), '5tCNF2fjTytOufdTKCncEA==')
 
 WebUI.sendKeys(findTestObject('Page_Masuk  YukJahit/input_Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.verifyElementVisible(findTestObject('Toasts/div_Login Berhasil'))
+WebUI.verifyElementVisible(findTestObject('Toasts/div_Edit Profil Berhasil'))
 
 WebUI.click(findTestObject('Page_Home  YukJahit/a_Kaos Hitam Polosby YukJahitRp 125.000'))
 
@@ -63,7 +63,7 @@ WebUI.setText(findTestObject('Page_Pencarian produk  YukJahit/input_Jahit_nav-se
 
 WebUI.sendKeys(findTestObject('Page_Pencarian produk  YukJahit/input_Jahit_nav-search-input'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Page_Pencarian produk  YukJahit/LinkBox_hasil pencarian (index kedua)'))
+WebUI.click(findTestObject('Page_Pencarian produk  YukJahit/LinkBox_hasil pencarian (index pertama)'))
 
 WebUI.setText(findTestObject('Page_Detail Produk/input_-_quantity'), '25')
 
@@ -97,13 +97,15 @@ WebUI.click(findTestObject('Page_Daftar Transaksi  YukJahit/button_Lihat Detail 
 
 WebUI.verifyElementPresent(findTestObject('Page_Daftar Transaksi  YukJahit/section_Modal'), 0)
 
+WebUI.click(findTestObject('Page_Daftar Transaksi  YukJahit/button_close button (modal)'))
+
 WebUI.click(findTestObject('Navigation/button_Akun'))
 
 WebUI.click(findTestObject('Navigation/a_Profil'))
 
 WebUI.verifyElementText(findTestObject('Page_Profil - YukJahit/p_email_user'), 'systemtestkatalon@email.com')
 
-WebUI.verifyElementText(findTestObject('Page_Profil - YukJahit/p_phone'), '081234567890')
+WebUI.verifyElementText(findTestObject('Page_Profil - YukJahit/p_phone'), '08123456789')
 
 WebUI.verifyElementText(findTestObject('Page_Profil - YukJahit/p_Alamat'), 'System test address')
 
@@ -118,3 +120,4 @@ WebUI.click(findTestObject('Navigation/button_Akun'))
 WebUI.click(findTestObject('Navigation/button_Keluar'))
 
 WebUI.closeBrowser()
+

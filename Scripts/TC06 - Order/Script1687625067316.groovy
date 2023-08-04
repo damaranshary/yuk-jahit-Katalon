@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/')
+WebUI.navigateToUrl('https://yukjahit.vercel.app/')
 
 WebUI.click(findTestObject('Navigation/a_Masuk'))
 
@@ -44,6 +44,18 @@ if (hasOrder == true) {
 
     if (order_status == 'Belum dibayar') {
         WebUI.verifyElementClickable(findTestObject('Page_Daftar Transaksi  YukJahit/button_Batalkan'))
+
+        WebUI.click(findTestObject('Page_Daftar Transaksi  YukJahit/button_Batalkan'))
+
+        WebUI.click(findTestObject('Page_Daftar Transaksi  YukJahit/button_Batalkan (alert dialog cancel)'))
+
+        WebUI.verifyElementVisible(findTestObject('Toasts/div_batalkan pesanan berhasil'))
+
+        WebUI.click(findTestObject('Page_Daftar Transaksi  YukJahit/button_Kembali (alert dialog cancel)'))
+
+        WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyElementText(findTestObject('Page_Daftar Transaksi  YukJahit/p_order status'), 'Dibatalkan')
     } else {
         WebUI.verifyElementNotClickable(findTestObject('Page_Daftar Transaksi  YukJahit/button_Batalkan'))
     }

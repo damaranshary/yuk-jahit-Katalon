@@ -6,12 +6,11 @@
    <elementGuidId>12b98bb2-ef6b-4e6c-8e69-832b3df967b0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@id='field-:r1:-label']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//label[contains(text(), 'Email')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>d620ceec-b391-42d2-ad48-34ca1c8a93d3</webElementGuid>
+      <webElementGuid>45d0f656-b52d-4f73-8542-0aa83e7c776b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>field-:r1:-label</value>
-      <webElementGuid>973f393a-f237-4953-ad3b-f95c297b32e8</webElementGuid>
+      <webElementGuid>21a5f5e8-c0b0-40aa-836b-cb6f32ee080e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>for</name>
       <type>Main</type>
       <value>field-:r1:</value>
-      <webElementGuid>27d7078a-024d-4325-a8cd-bfa4d5a29285</webElementGuid>
+      <webElementGuid>8d4b4f13-8c1c-49eb-bc10-5cdef110d4e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-form__label css-ectb8h</value>
-      <webElementGuid>82d70a50-3f3e-49e9-a0f2-df489963220b</webElementGuid>
+      <webElementGuid>a5e814c0-4114-4313-92e2-b0769816cd61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Email*</value>
-      <webElementGuid>514d73b9-34cc-44da-b297-da585a8bab3e</webElementGuid>
+      <webElementGuid>54a262f4-2848-40af-b522-3c9ea7271715</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;field-:r1:-label&quot;)</value>
-      <webElementGuid>85d4276d-daeb-4f76-af6a-97bb9dcf10af</webElementGuid>
+      <webElementGuid>accf2b65-c350-495b-b4b5-160955d21cfb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//label[@id='field-:r1:-label']</value>
-      <webElementGuid>1099fa0c-553e-4dd7-97a0-6a2b285e4038</webElementGuid>
+      <value>//label[contains(text(), 'Email')]</value>
+      <webElementGuid>95fd9cf1-1b81-4dd6-8f24-9eece448b775</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/form/div[2]/label</value>
-      <webElementGuid>1a7c1f2e-4966-485e-b560-13e20cd2c0b8</webElementGuid>
+      <webElementGuid>7fc2b719-138b-4ecc-ad3e-5888b1cb982f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[2]/following::label[1]</value>
-      <webElementGuid>f7c37174-51c8-4d13-80be-5019b353f9b4</webElementGuid>
+      <webElementGuid>db186934-e52c-42d9-9e58-68762f9b006f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jahit'])[2]/following::label[1]</value>
-      <webElementGuid>8f44101c-0362-4a1e-bb1d-89d7de6b4244</webElementGuid>
+      <webElementGuid>9c601f1f-ed68-42b7-98c6-d08f26751a55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='daftar'])[1]/preceding::label[2]</value>
-      <webElementGuid>eef5b952-3fdf-4388-8b4a-3740c5efe5a9</webElementGuid>
+      <webElementGuid>9e7e58f2-2261-497b-94fd-047455d2c917</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Email']/parent::*</value>
-      <webElementGuid>be57a67e-937f-40a1-b6c8-9597eabe1763</webElementGuid>
+      <webElementGuid>dda3b7dd-3334-42e6-8458-db05d51a83bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label</value>
-      <webElementGuid>308590b2-a4dd-460e-8e29-1ce76a19e718</webElementGuid>
+      <webElementGuid>e779634d-5e76-41f6-8817-9dd36aa70377</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[@id = 'field-:r1:-label' and (text() = 'Email*' or . = 'Email*')]</value>
-      <webElementGuid>55ea09a2-9dcd-4542-975c-2fcfb283e57e</webElementGuid>
+      <webElementGuid>2b758583-21d9-4705-bd62-4ea1f45cb1d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
